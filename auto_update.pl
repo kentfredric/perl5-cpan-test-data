@@ -12,12 +12,11 @@ sub CPAN_test_index {
     return 'http://www.cpantesters.org/author/' . $author . '.json';
 }
 
-
 my $CPAN_ID;
 my $AUTOCOMMIT;
 
 for my $param ( 0 .. $#ARGV ) {
-    if ( $ARGV[$param] =~ /^--commit$/msx  ){
+    if ( $ARGV[$param] =~ /^--commit$/msx ) {
         $AUTOCOMMIT = 1;
         $ARGV[$param] = undef;
     }
@@ -40,10 +39,10 @@ print "Updating HEAD\n";
 
 require head_check;
 
-my $result =
-  head_check::URI_Changed( CPAN_test_index($CPAN_ID), $LAST_MODIFIED_FILE, $HEADERS_FILE );
+my $result = head_check::URI_Changed( CPAN_test_index($CPAN_ID),
+    $LAST_MODIFIED_FILE, $HEADERS_FILE );
 
-if ( not $result ) { 
+if ( not $result ) {
     print "No changes since last snapshot\n";
 }
 if ( $result or not -e $JSON_FILE ) {
@@ -61,10 +60,10 @@ if ( $result or not -e $REPORT_FILE ) {
 
     require JSON::XS;
     my $tiny = JSON::XS->new();
-    
+
     my $bytes = $JSON_FILE->slurp_utf8();
     my $array = $tiny->decode($bytes);
-    
+
     for my $item ( @{$array} ) {
         $dists->add_info($item);
     }
@@ -74,9 +73,9 @@ if ( $result or not -e $REPORT_FILE ) {
         $d = $a->num_fail <=> $b->num_fail;
         return $d unless $d == 0;
         return $a->name cmp $b->name;
-    
+
         #return $a->fail_rate <=> $b->fail_rate;
-        if ( $a->num_fail != $b->num_fail ) { 
+        if ( $a->num_fail != $b->num_fail ) {
             return $a->num_fail <=> $b->num_fail;
         }
         if ( $a->num_pass != $b->num_pass ) {
@@ -86,12 +85,12 @@ if ( $result or not -e $REPORT_FILE ) {
     };
     my @lines;
     for my $xitem ( sort { $sorter->() } $dists->all_versions ) {
-       next if not defined $xitem;
-       push @lines, sprintf "%s\n", $xitem->to_s;
-    }   
+        next if not defined $xitem;
+        push @lines, sprintf "%s\n", $xitem->to_s;
+    }
     $REPORT_FILE->spew_utf8(@lines);
 }
-if ( $AUTOCOMMIT ) {
+if ($AUTOCOMMIT) {
     print "Autocommit\n";
     require Git::Wrapper;
     my $git = Git::Wrapper->new('.');
@@ -99,36 +98,11 @@ if ( $AUTOCOMMIT ) {
     $git->add($JSON_FILE);
     $git->add($HEADERS_FILE);
     $git->add($REPORT_FILE);
-    my ( $ts ) = $LAST_MODIFIED_FILE->lines_utf8({ chomp => 1 });
-    $git->commit('-m', "Sync $CPAN_ID data to $ts",
-        $LAST_MODIFIED_FILE,
-        $JSON_FILE,
-        $HEADERS_FILE,
-        $REPORT_FILE
-    );
+    my ($ts) = $LAST_MODIFIED_FILE->lines_utf8( { chomp => 1 } );
+    eval {
+        $git->commit( '-m', "Sync $CPAN_ID data to $ts",
+            $LAST_MODIFIED_FILE, $JSON_FILE, $HEADERS_FILE, $REPORT_FILE );
+    };
     print "Done!\n";
 }
-__END__
-
-print "Updating HEAD\n";
-my ( $stdout, $stderr, $exit ) = capture {
-    system('git','diff','--','HEAD');
-};
-print "Done\n";
-my $mod;
-if ( $stdout =~ /^[+]Last-Modified: (.*?$)/msx ) {
-    print "Modified, syncing JSON\n";
-    $mod = $1;
-    system('bash', './sync_axel.sh');
-    my ( $c_out, $c_err, $c_exit ) = capture {
-        system('perl','./e.pl');
-    };
-    print "Updating data\n";
-    path('./data')->spew_raw($c_out);
-    system('git','add','--','HEAD','data', $CPAN_ID . '.json');
-    system('git','commit','-m', "Sync to $mod");
-} else {
-    print "Not modified\n";
-}
-
 
