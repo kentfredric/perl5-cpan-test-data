@@ -3,7 +3,6 @@ use strict;
 use warnings;
 use utf8;
 
-
 use JSON::XS;
 my $tiny = JSON::XS->new();
 use Path::Tiny qw(path);
@@ -17,7 +16,7 @@ else {
     $CPAN_ID = path('CPANID')->slurp_utf8();
     chomp $CPAN_ID;
 }
-my $JSON_FILE=path( $CPAN_ID . '.json' );
+my $JSON_FILE = path( $CPAN_ID . '.json' );
 
 my $bytes = $JSON_FILE->slurp_utf8();
 my $array = $tiny->decode($bytes);
@@ -33,54 +32,59 @@ sub highlight {
     $color = "\e[34m" if $status eq 'UNKNOWN';
     return $color . $text . "\e[0m";
 }
+
 sub pad_highlight {
     my ( $status, $len, $text ) = @_;
-    if (( length $text ) < $len ) {
+    if ( ( length $text ) < $len ) {
         my $extra = $len - length $text;
-        $text = ( q[ ] x $extra ) .  $text;
+        $text = ( q[ ] x $extra ) . $text;
     }
-    return highlight($status, $text);
+    return highlight( $status, $text );
 }
+
 sub lpad_highlight {
     my ( $status, $len, $text ) = @_;
-    if (( length $text ) < $len ) {
+    if ( ( length $text ) < $len ) {
         my $extra = $len - length $text;
         $text = $text . ( q[ ] x $extra );
     }
-    return highlight($status, $text);
+    return highlight( $status, $text );
 }
+
 sub hlpair {
     my ( $l, $r ) = @_;
-    print "\e[37m$l:\e[0m $r, "; 
+    print "\e[37m$l:\e[0m $r, ";
 }
 for my $item ( sort { $a->{fulldate} <=> $b->{fulldate} } @{$array} ) {
-   if ( $ARGV[0] ) {
-       next unless  $item->{distribution} eq $ARGV[0];
-   }
-   next unless $item->{status} ne 'PASS';
+    if ( $ARGV[0] ) {
+        next unless $item->{distribution} eq $ARGV[0];
+    }
+    next unless $item->{status} ne 'PASS';
 
-   print pad_highlight($item->{status}, 4, $item->{status});
-   print ' - ';
-   print lpad_highlight($item->{status}, 60, $item->{distversion} );
-   print "\n";
-   print "\t";
-   for my $key (qw( osname ostext osvers fulldate platform csspatch cssperl perl ) ) {
-       hlpair($key, $item->{$key});
-   }
-   print "\n";
-   print "\t";
-   for my $key (qw( tester ) ) {
-       hlpair($key, $item->{$key});
-   }
-   print lpad_highlight($item->{status},60, "http://www.cpantesters.org/cpan/report/" . $item->{guid} );
+    print pad_highlight( $item->{status}, 4, $item->{status} );
+    print ' - ';
+    print lpad_highlight( $item->{status}, 60, $item->{distversion} );
+    print "\n";
+    print "\t";
+    for my $key (
+        qw( osname ostext osvers fulldate platform csspatch cssperl perl ))
+    {
+        hlpair( $key, $item->{$key} );
+    }
+    print "\n";
+    print "\t";
+    for my $key (qw( tester )) {
+        hlpair( $key, $item->{$key} );
+    }
+    print lpad_highlight( $item->{status}, 60,
+        "http://www.cpantesters.org/cpan/report/" . $item->{guid} );
 
-   print "\n";
+    print "\n";
 
-
-   next;
-  }
+    next;
+}
 
 print "keys: ";
-print join q[,], sort keys %{$array->[0]};
+print join q[,], sort keys %{ $array->[0] };
 print "\n";
 
