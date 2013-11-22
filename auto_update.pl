@@ -42,6 +42,7 @@ require head_check;
 my $result = head_check::URI_Changed( CPAN_test_index($CPAN_ID),
     $LAST_MODIFIED_FILE, $HEADERS_FILE );
 
+my $modified;
 if ( not $result ) {
     print "No changes since last snapshot\n";
 }
@@ -50,6 +51,7 @@ if ( $result or not -e $JSON_FILE ) {
     require mirror;
     ## Change this if you don't have "axel"
     mirror::axel( CPAN_test_index($CPAN_ID), $JSON_FILE );
+    $modified = 1;
 }
 
 if ( $result or not -e $REPORT_FILE ) {
@@ -89,8 +91,9 @@ if ( $result or not -e $REPORT_FILE ) {
         push @lines, sprintf "%s\n", $xitem->to_s;
     }
     $REPORT_FILE->spew_utf8(@lines);
+    $modified = 1;
 }
-if ($AUTOCOMMIT) {
+if ( $AUTOCOMMIT and $modified ) {
     print "Autocommit\n";
     require Git::Wrapper;
     my $git = Git::Wrapper->new('.');
