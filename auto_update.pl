@@ -92,6 +92,7 @@ if ( $result or not -e $REPORT_FILE ) {
     $REPORT_FILE->spew_utf8(@lines);
 }
 if ( $AUTOCOMMIT ) {
+    print "Autocommit\n";
     require Git::Wrapper;
     my $git = Git::Wrapper->new('.');
     $git->add($LAST_MODIFIED_FILE);
@@ -105,6 +106,7 @@ if ( $AUTOCOMMIT ) {
         $HEADERS_FILE,
         $REPORT_FILE
     );
+    print "Done!\n";
 }
 __END__
 
