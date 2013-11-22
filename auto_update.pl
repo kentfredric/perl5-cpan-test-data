@@ -5,13 +5,7 @@ use utf8;
 use FindBin;
 use lib "$FindBin::Bin/lib";
 
-use head_check;
-use mirror;
-
-
-use Capture::Tiny qw(capture);
 use Path::Tiny;
-use Git::Wrapper;
 
 sub CPAN_test_index {
     my ($author) = @_;
@@ -20,6 +14,15 @@ sub CPAN_test_index {
 
 
 my $CPAN_ID;
+my $AUTOCOMMIT;
+
+for my $param ( 0 .. $#ARGV ) {
+    if ( $ARGV[$param] =~ /^--commit$/msx  ){
+        $AUTOCOMMIT = 1;
+        $ARGV[$param] = undef;
+    }
+}
+@ARGV = grep { defined } @ARGV;
 
 if ( $ARGV[0] ) {
     $CPAN_ID = $ARGV[0];
@@ -35,6 +38,8 @@ my $REPORT_FILE        = path( $CPAN_ID . '.data' );
 
 print "Updating HEAD\n";
 
+require head_check;
+
 my $result =
   head_check::URI_Changed( CPAN_test_index($CPAN_ID), $LAST_MODIFIED_FILE, $HEADERS_FILE );
 
@@ -43,6 +48,7 @@ if ( not $result ) {
 }
 if ( $result or not -e $JSON_FILE ) {
     print "Syncing $JSON_FILE\n";
+    require mirror;
     ## Change this if you don't have "axel"
     mirror::axel( CPAN_test_index($CPAN_ID), $JSON_FILE );
 }
@@ -85,7 +91,16 @@ if ( $result or not -e $REPORT_FILE ) {
     }   
     $REPORT_FILE->spew_utf8(@lines);
 }
-
+if ( $AUTOCOMMIT ) {
+    require Git::Wrapper;
+    my $git = Git::Wrapper->new();
+    $git->add($LAST_MODIFIED_FILE);
+    $git->add($JSON_FILE);
+    $git->add($HEADERS_FILE);
+    $git->add($REPORT_FILE);
+    my ( $ts ) = $LAST_MODIFIED_FILE->lines_utf8({ chomp => 1 });
+    $git->commit('-m', "Sync $CPANID data to $ts");
+}
 __END__
 
 print "Updating HEAD\n";
