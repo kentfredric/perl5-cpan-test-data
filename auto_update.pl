@@ -90,13 +90,13 @@ if ( $AUTOCOMMIT and $modified ) {
     require Git::Wrapper;
     my $git = Git::Wrapper->new('.');
     $git->add($LAST_MODIFIED_FILE);
-    $git->add($JSON_FILE);
     $git->add($HEADERS_FILE);
     $git->add($REPORT_FILE);
+    $git->add($VREPORT_FILE);
     my ($ts) = $LAST_MODIFIED_FILE->lines_utf8( { chomp => 1 } );
     eval {
         $git->commit( '-m', "Sync $CPAN_ID data to $ts",
-            $LAST_MODIFIED_FILE, $JSON_FILE, $HEADERS_FILE, $REPORT_FILE, $VREPORT_FILE );
+            $LAST_MODIFIED_FILE, $HEADERS_FILE, $REPORT_FILE, $VREPORT_FILE );
     };
     print "Done!\n";
 }
