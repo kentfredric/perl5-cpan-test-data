@@ -29,6 +29,9 @@ sub URI_Changed {
     if ( my $lm = $head->header('Last-Modified') ) {
         $disk_path->spew_utf8($lm);
     }
+    if ( $head->is_error ) {
+        die "Error returned from server";
+    }
     my $headers = $head->headers->as_string;
     if ( not -e $headers_path ) {
         $headers_path->spew_utf8($headers);
