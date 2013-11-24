@@ -1,4 +1,4 @@
-#!/usr/bin/env perl 
+#!/usr/bin/env perl
 use strict;
 use warnings;
 use utf8;
@@ -34,6 +34,7 @@ my $LAST_MODIFIED_FILE = path( $CPAN_ID . '.last_modified' );
 my $JSON_FILE          = path( $CPAN_ID . '.json' );
 my $HEADERS_FILE       = path( $CPAN_ID . '.HEAD' );
 my $REPORT_FILE        = path( $CPAN_ID . '.data' );
+my $VREPORT_FILE       = path( $CPAN_ID . '.data.versions' );
 
 print "Updating HEAD\n";
 
@@ -58,40 +59,31 @@ if ( $result or not -e $REPORT_FILE ) {
 
     require DistSet;
 
-    my $dists = DistSet->new();
+    my $dists = DistSet->read_file( $JSON_FILE );
 
-    require JSON::XS;
-    my $tiny = JSON::XS->new();
-
-    my $bytes = $JSON_FILE->slurp_utf8();
-    my $array = $tiny->decode($bytes);
-
-    for my $item ( @{$array} ) {
-        $dists->add_info($item);
-    }
-    my $sorter = sub {
-        my $d = $a->num_pass <=> $b->num_pass;
-        return $d unless $d == 0;
-        $d = $a->num_fail <=> $b->num_fail;
-        return $d unless $d == 0;
-        return $a->name cmp $b->name;
-
-        #return $a->fail_rate <=> $b->fail_rate;
-        if ( $a->num_fail != $b->num_fail ) {
-            return $a->num_fail <=> $b->num_fail;
-        }
-        if ( $a->num_pass != $b->num_pass ) {
-            return $a->num_pass <=> $b->num_pass;
-        }
-        return 1;
-    };
     my @lines;
-    for my $xitem ( sort { $sorter->() } $dists->all_versions ) {
+    for my $xitem ( $dists->all_versions_by(qw( num_pass num_fail )) ) {
         next if not defined $xitem;
         push @lines, sprintf "%s\n", $xitem->to_s;
     }
     $REPORT_FILE->spew_utf8(@lines);
     $modified = 1;
+
+}
+if ( $result or not -e $VREPORT_FILE ) {
+
+    require DistSet;
+
+    my $dists = DistSet->read_file( $JSON_FILE );
+
+    my @lines;
+    for my $xitem ( $dists->all_versions_by(qw( num_pass num_fail )) ) {
+        next if not defined $xitem;
+        push @lines, map { sprintf "%s\n", $_ } $xitem->to_perlver_breakdown;
+    }
+    $VREPORT_FILE->spew_utf8(@lines);
+    $modified = 1;
+
 }
 if ( $AUTOCOMMIT and $modified ) {
     print "Autocommit\n";
@@ -104,7 +96,7 @@ if ( $AUTOCOMMIT and $modified ) {
     my ($ts) = $LAST_MODIFIED_FILE->lines_utf8( { chomp => 1 } );
     eval {
         $git->commit( '-m', "Sync $CPAN_ID data to $ts",
-            $LAST_MODIFIED_FILE, $JSON_FILE, $HEADERS_FILE, $REPORT_FILE );
+            $LAST_MODIFIED_FILE, $JSON_FILE, $HEADERS_FILE, $REPORT_FILE, $VREPORT_FILE );
     };
     print "Done!\n";
 }
