@@ -1,7 +1,7 @@
-                                                       CPAN-Test-Dummy-Perl5-Make-PerlReq-Fail-0.001:	0	0	587	1
-                                                              CPAN-Test-Dummy-Perl5-Make-PLExit-1.01:	0	0	0	2
-                                                                                            Foo-1.23:	0	0	0	10
                                                   CPAN-Test-Dummy-Perl5-Make-FailConfigRequires-1.00:	0	0	0	3
+                                                       CPAN-Test-Dummy-Perl5-Make-PerlReq-Fail-0.001:	0	0	587	1
+                                                                                            Foo-1.23:	0	0	0	10
+                                                              CPAN-Test-Dummy-Perl5-Make-PLExit-1.01:	0	0	0	2
                                                             CPAN-Test-Dummy-Perl5-Make-FailLate-1.02:	0	48	0	584
                                                                       Metabase-Backend-MongoDB-1.000:	0	99	4	0
                                                                                      Test-Float-0.10:	2	0	0	0
@@ -26,7 +26,7 @@
                                                                                         CPAN-1.94_65:	102	12	0	0
                                                                           Metabase-Backend-SQL-1.000:	105	85	3	0
                                                                     CPAN-Testers-Metabase-Feed-0.001:	106	0	26	0
-                                                                                     Path-Tiny-0.046:	141	12	0	0
+                                                                                     Path-Tiny-0.046:	143	12	0	0
                                                               Dist-Zilla-PluginBundle-DAGOLDEN-0.059:	145	0	0	0
                                                                   Dancer2-Plugin-Queue-MongoDB-0.003:	149	0	0	0
                                                                    Dancer-Plugin-Queue-MongoDB-0.003:	152	0	0	0
@@ -79,8 +79,8 @@
                                                                                 Module-Build-0.39_01:	329	10	1	0
                                                                            App-CPAN-Mini-Visit-0.006:	331	96	67	2
                                                                            CPAN-Testers-Config-0.002:	333	24	0	0
-                                                                                     HTTP-Tiny-0.038:	334	14	0	0
-                                                             Dist-Zilla-Plugin-CheckExtraTests-0.016:	336	0	0	0
+                                                                                     HTTP-Tiny-0.038:	334	15	0	0
+                                                             Dist-Zilla-Plugin-CheckExtraTests-0.016:	337	0	0	0
                                                                     Acme-Acme-Module-Build-Tiny-0.06:	339	22	0	0
                                                                   CPAN-Testers-Metabase-AWS-1.999002:	364	0	0	0
                                                                   Dancer-Plugin-Syntax-GetPost-0.001:	364	1	0	0
@@ -125,7 +125,7 @@
                                                                                   CPAN-Meta-2.132830:	709	0	0	0
                                                                                     File-Marker-0.13:	717	11	0	1
                                                                                       Test-API-0.002:	718	0	0	1
-                                                                                    Class-Tiny-0.012:	722	1	0	0
+                                                                                    Class-Tiny-0.012:	724	1	0	0
                                                                                     superclass-0.002:	787	1	0	0
                                                                  Test-Reporter-Transport-Legacy-1.59:	801	0	0	0
                                                                                   CPAN-Visitor-0.003:	802	0	0	0
@@ -135,16 +135,16 @@
                                                                              ExtUtils-ParseXS-2.2206:	881	13	0	0
                                                                                 Class-InsideOut-1.13:	945	1	0	0
                                                              Dist-Zilla-Plugin-InsertCopyright-0.002:	991	0	0	0
-                                                                            Path-Iterator-Rule-1.006:	998	4	17	0
                                                                                Path-Class-Rule-0.018:	999	0	0	0
-                                                                                   Capture-Tiny-0.23:	1027	3	0	0
+                                                                            Path-Iterator-Rule-1.006:	999	4	17	0
+                                                                                   Capture-Tiny-0.23:	1028	3	0	0
                                                                                             Tee-0.14:	1089	0	0	0
                                                                                 CPAN-Reporter-1.2009:	1090	198	0	0
                                                                           ExtUtils-CBuilder-0.280205:	1125	12	0	4
                                                                              Net-Amazon-Config-0.001:	1131	1	0	2
                                                                         MooseX-Types-Path-Tiny-0.002:	1138	1	4	0
                                                           Dist-Zilla-Plugin-BumpVersionFromGit-0.009:	1156	57	0	2
-                                                                             Test-FailWarnings-0.008:	1264	0	4	0
+                                                                             Test-FailWarnings-0.008:	1266	0	4	0
                                                                                      App-Cpan-1.5902:	1288	386	2	2
                                                                                      Term-Title-0.07:	1369	272	0	0
                                                                                 CPAN-Mini-Devel-0.03:	1401	5	28	3
