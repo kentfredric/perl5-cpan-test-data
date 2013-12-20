@@ -1,24 +1,24 @@
-                                                              CPAN-Test-Dummy-Perl5-Make-PLExit-1.01:	0	0	0	2
-                                                  CPAN-Test-Dummy-Perl5-Make-FailConfigRequires-1.00:	0	0	0	3
                                                                                             Foo-1.23:	0	0	0	10
                                                        CPAN-Test-Dummy-Perl5-Make-PerlReq-Fail-0.001:	0	0	592	1
+                                                  CPAN-Test-Dummy-Perl5-Make-FailConfigRequires-1.00:	0	0	0	3
+                                                              CPAN-Test-Dummy-Perl5-Make-PLExit-1.01:	0	0	0	2
                                                             CPAN-Test-Dummy-Perl5-Make-FailLate-1.02:	0	48	0	588
                                                                       Metabase-Backend-MongoDB-1.000:	0	99	4	0
                                                                                      Test-Float-0.10:	2	0	0	0
                                                                           Perl-Dist-Strawberry-0.1.2:	2	4	0	1
-                                                                  Dancer-SessionFactory-Cookie-0.001:	3	0	1	0
                                                                                 Mail-Classifier-0.13:	3	0	0	0
+                                                                  Dancer-SessionFactory-Cookie-0.001:	3	0	1	0
                                                                            Exception-Class-Sugar-0.1:	5	0	0	0
                                                                             Tie-Handle-ToMemory-0.14:	6	3	0	0
                                                                                  Perl-Dist-Vanilla-7:	7	0	0	0
                                                                  Dancer-SessionFactory-MongoDB-0.001:	15	0	1	0
                                                                Dancer-SessionFactory-Memcached-0.001:	17	0	1	0
-                                                                                    File-Marker-0.14:	34	0	0	0
                                                                                         OSType-0.004:	41	0	0	0
+                                                                                    File-Marker-0.14:	45	0	0	0
                                                                                      Objectify-0.001:	73	0	0	0
                                                                                 MongoDBx-Queue-1.001:	82	94	7	0
-                                                                                     Perl-Dist-0.0.5:	87	0	0	0
                                                                       CPAN-Testers-Metabase-1.999002:	87	0	0	0
+                                                                                     Perl-Dist-0.0.5:	87	0	0	0
                                                                                         Pantry-0.012:	91	60	75	0
                                                                      Dancer2-Session-Memcached-0.003:	98	0	0	0
                                                                                         CPAN-1.94_65:	102	12	0	0
@@ -42,7 +42,7 @@
                                                                         Dancer2-Session-Cookie-0.005:	222	18	0	0
                                                                                    IO-All-Rule-0.003:	222	57	8	0
                                                         Dist-Zilla-Plugin-MakeMaker-Highlander-0.003:	228	0	4	0
-                                                                             CPAN-Common-Index-0.003:	228	15	0	0
+                                                                             CPAN-Common-Index-0.003:	229	15	0	0
                                                                            Dancer-Plugin-Queue-0.002:	232	0	4	0
                                                                                        inherit-0.001:	233	0	0	0
                                                                            Statistics-RankOrder-0.13:	233	1	0	0
@@ -52,8 +52,8 @@
                                                            Dist-Zilla-Plugin-Meta-Contributors-0.001:	247	0	0	0
                                                                           Data-Password-Common-0.004:	248	0	4	2
                                                                              Acme-require-case-0.011:	250	0	1	0
-                                                                                  HTTP-Tiny-UA-0.001:	253	0	4	0
                                                                                        Meerkat-0.007:	253	0	3	0
+                                                                                  HTTP-Tiny-UA-0.001:	254	0	4	0
                                                          Dist-Zilla-Plugin-RemovePhasedPrereqs-0.002:	256	0	0	0
                                                                            MooseX-Role-MongoDB-0.005:	257	0	3	0
                                                                       Pod-Wordlist-hanekomu-1.132680:	263	0	0	0
@@ -61,11 +61,11 @@
                                                                                 Crypt-Diceware-0.003:	274	0	0	0
                                                                                 File-RandomLine-0.20:	275	1	0	0
                                                                           Dancer-Session-Cookie-0.22:	275	55	1	0
-                                                                                Try-Tiny-Retry-0.002:	279	0	0	0
+                                                                                Try-Tiny-Retry-0.002:	280	0	0	0
                                                                                 PGP-Words-Tiny-0.002:	281	0	0	0
                                                                                   Text-BoxPlot-0.001:	289	0	0	0
-                                                                                Hash-Objectify-0.002:	291	0	0	0
                                                                   CPAN-Test-Dummy-Perl5-RecSug-0.001:	291	0	0	0
+                                                                                Hash-Objectify-0.002:	291	0	0	0
                                                                                       Test-NoXS-1.02:	292	2	0	0
                                                                              Mail-Box-IMAP4-SSL-0.02:	297	98	3	2
                                                                          Dancer-Plugin-Adapter-0.004:	300	19	0	0
@@ -85,7 +85,7 @@
                                                                           Metabase-Backend-AWS-1.000:	382	0	21	0
                                                                         Session-Storage-Secure-0.007:	391	1	0	0
                                                           Dist-Zilla-Plugin-AppendExternalData-0.003:	403	0	0	0
-                                                                                     Path-Tiny-0.049:	419	1	0	0
+                                                                                     Path-Tiny-0.049:	427	1	0	0
                                                                               Task-Metabase-1.100760:	436	0	1	0
                                                          MooseX-Types-Path-Class-MoreCoercions-0.003:	456	0	0	0
                                                                            App-mymeta_requires-0.005:	457	0	2	0
@@ -101,70 +101,70 @@
                                                                                   Test-Reporter-1.60:	543	0	0	2
                                                                             Task-CPAN-Reporter-0.001:	560	0	0	1
                                                                          CPAN-Mini-Devel-Recent-0.06:	562	0	0	1
-                                                          Dist-Zilla-Plugin-Prereqs-AuthorDeps-0.002:	607	0	9	2
-                                                             Dist-Zilla-Plugin-CheckExtraTests-0.016:	617	13	2	0
+                                                          Dist-Zilla-Plugin-Prereqs-AuthorDeps-0.002:	609	0	9	2
                                                                                         install-0.01:	618	0	0	0
-                                                                                      failures-0.002:	618	7	0	1
+                                                             Dist-Zilla-Plugin-CheckExtraTests-0.016:	618	13	2	0
+                                                                                      failures-0.002:	619	7	0	1
                                                                                           ylib-0.002:	623	34	0	0
                                                                                Object-LocalVars-0.20:	626	6	2	1
                                                                                 CPAN-Meta-YAML-0.010:	627	0	0	0
                                                                                         PPI-XS-0.902:	630	1	0	0
                                                                    Devel-OverrideGlobalRequire-0.001:	637	0	0	0
-                                                                            MooseX-Role-Logger-0.001:	638	6	6	0
-                                                                                    File-Temp-0.2304:	675	1	0	2
-                                                                               Types-Path-Tiny-0.005:	694	0	0	0
+                                                                            MooseX-Role-Logger-0.001:	639	6	6	0
+                                                                                    File-Temp-0.2304:	678	1	0	2
                                                                         CPAN-Meta-Requirements-2.125:	695	2	0	0
-                                                                              Test-Number-Delta-1.04:	701	0	0	0
-                                                                                    Class-Tiny-0.014:	702	0	0	0
+                                                                               Types-Path-Tiny-0.005:	698	0	0	0
+                                                                              Test-Number-Delta-1.04:	704	0	0	0
                                                                                  App-grindperl-0.002:	705	0	2	0
-                                                                                     HTTP-Tiny-0.039:	709	24	1	0
+                                                                                    Class-Tiny-0.014:	707	0	0	0
+                                                                                     HTTP-Tiny-0.039:	713	24	1	0
                                                                                   Data-UUID-MT-1.001:	718	1	0	0
                                                                                       Test-API-0.002:	731	0	0	1
-                                                                                      Test-Roo-1.002:	734	0	0	0
-                                                          Dist-Zilla-Plugin-Test-ReportPrereqs-0.010:	770	41	0	2
+                                                                                      Test-Roo-1.002:	739	0	0	0
+                                                          Dist-Zilla-Plugin-Test-ReportPrereqs-0.010:	771	41	0	2
                                                                               Parse-CPAN-Meta-1.4409:	772	0	0	0
-                                                                                 Metabase-Fact-0.023:	777	0	0	0
-                                                                                        ToolSet-1.00:	810	0	0	0
+                                                                                 Metabase-Fact-0.023:	779	0	0	0
                                                                                   CPAN-Visitor-0.003:	810	0	0	0
+                                                                                        ToolSet-1.00:	810	0	0	0
                                                                  Test-Reporter-Transport-Legacy-1.59:	819	0	0	0
-                                                                                    superclass-0.002:	821	1	0	0
+                                                                                    superclass-0.002:	822	1	0	0
                                                                             Module-Metadata-1.000009:	830	2	0	2
-                                                                             Tie-Handle-Offset-0.003:	838	0	0	0
+                                                                             Tie-Handle-Offset-0.003:	839	0	0	0
                                                                                 HTTP-CookieJar-0.005:	839	0	7	0
                                                                              ExtUtils-ParseXS-2.2206:	881	13	0	0
                                                                        MooseX-Types-Stringlike-0.002:	889	0	0	1
                                                              Dist-Zilla-Plugin-InsertCopyright-0.002:	1017	0	0	0
-                                                                               Path-Class-Rule-0.018:	1044	0	0	0
+                                                                               Path-Class-Rule-0.018:	1050	0	0	0
                                                                                 CPAN-Reporter-1.2009:	1090	198	0	0
                                                                                             Tee-0.14:	1100	0	0	0
                                                                           ExtUtils-CBuilder-0.280205:	1125	12	0	4
                                                                         MooseX-Types-Path-Tiny-0.002:	1138	1	4	0
                                                                              Net-Amazon-Config-0.001:	1143	1	0	2
                                                           Dist-Zilla-Plugin-BumpVersionFromGit-0.009:	1164	57	0	2
-                                                                            Path-Iterator-Rule-1.006:	1248	5	22	0
-                                                                                Class-InsideOut-1.13:	1274	1	0	0
+                                                                            Path-Iterator-Rule-1.006:	1250	5	22	0
+                                                                                Class-InsideOut-1.13:	1275	1	0	0
                                                                                    Capture-Tiny-0.23:	1282	4	0	0
                                                                                      App-Cpan-1.5902:	1288	386	2	2
                                                                                      Term-Title-0.07:	1397	272	0	0
                                                                                 CPAN-Mini-Devel-0.03:	1412	5	28	3
-                                                                             Test-FailWarnings-0.008:	1526	0	4	0
+                                                                             Test-FailWarnings-0.008:	1528	0	4	0
                                                                                     Search-Dict-1.07:	1673	0	0	1
                                                                                    Getopt-Lucid-1.05:	1683	0	1	0
                                                                                 Test-MockRandom-1.00:	1704	0	0	2
                                                                                Regexp-SQL-LIKE-0.001:	1736	0	38	0
                                                                         Metabase-Client-Simple-0.009:	1772	0	0	0
                                                                                 IO-Prompt-Tiny-0.002:	1860	1	0	0
-                                                                     CPAN-Testers-Common-Utils-0.002:	1909	0	1	0
+                                                                     CPAN-Testers-Common-Utils-0.002:	1915	0	1	0
                                                           Dist-Zilla-Plugin-CheckMetaResources-0.001:	1999	0	0	1
                                                                                     File-pushd-1.005:	2309	0	0	0
                                                                                     Pod-WikiDoc-0.20:	2515	0	0	1
-                                                                                  Test-Filename-0.03:	2781	1	0	1
+                                                                                  Test-Filename-0.03:	2783	1	0	1
                                                            Test-Reporter-Transport-Metabase-1.999008:	2918	0	0	8
                                                       Dist-Zilla-Plugin-CheckChangesHasContent-0.006:	3041	18	4	1
                                                                                 Devel-Autoflush-0.05:	3044	0	0	2
                                                                                    File-chdir-0.1008:	3258	11	0	6
-                                                                        CPAN-Testers-Report-1.999001:	4059	1	0	6
+                                                                        CPAN-Testers-Report-1.999001:	4064	1	0	6
                                                                              IO-CaptureOutput-1.1102:	4281	74	0	3
-                                                                                    Sub-Uplevel-0.24:	4619	1	0	21
-                                                                       Exception-Class-TryCatch-1.12:	5787	5	14	5
+                                                                                    Sub-Uplevel-0.24:	4621	1	0	21
+                                                                       Exception-Class-TryCatch-1.12:	5788	5	14	5
                                                                                   Version-Next-0.002:	6190	4	0	3
