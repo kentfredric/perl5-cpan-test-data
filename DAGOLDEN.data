@@ -1,13 +1,13 @@
-                                                       CPAN-Test-Dummy-Perl5-Make-PerlReq-Fail-0.001:	0	0	592	1
-                                                              CPAN-Test-Dummy-Perl5-Make-PLExit-1.01:	0	0	0	2
                                                                                             Foo-1.23:	0	0	0	10
+                                                              CPAN-Test-Dummy-Perl5-Make-PLExit-1.01:	0	0	0	2
+                                                       CPAN-Test-Dummy-Perl5-Make-PerlReq-Fail-0.001:	0	0	592	1
                                                   CPAN-Test-Dummy-Perl5-Make-FailConfigRequires-1.00:	0	0	0	3
                                                             CPAN-Test-Dummy-Perl5-Make-FailLate-1.02:	0	48	0	588
                                                                       Metabase-Backend-MongoDB-1.000:	0	99	4	0
                                                                                      Test-Float-0.10:	2	0	0	0
                                                                           Perl-Dist-Strawberry-0.1.2:	2	4	0	1
-                                                                                Mail-Classifier-0.13:	3	0	0	0
                                                                   Dancer-SessionFactory-Cookie-0.001:	3	0	1	0
+                                                                                Mail-Classifier-0.13:	3	0	0	0
                                                                            Exception-Class-Sugar-0.1:	5	0	0	0
                                                                             Tie-Handle-ToMemory-0.14:	6	3	0	0
                                                                                  Perl-Dist-Vanilla-7:	7	0	0	0
@@ -46,7 +46,7 @@
                                                                                        inherit-0.001:	233	0	0	0
                                                                            Statistics-RankOrder-0.13:	233	1	0	0
                                                                         ExtUtils-ModuleMaker-TT-0.94:	233	3	0	0
-                                                                                    File-Marker-0.14:	240	0	0	0
+                                                                                    File-Marker-0.14:	241	0	0	0
                                                                       Acme-CPAN-Testers-UNKNOWN-0.03:	241	0	0	0
                                                                         Time-OlsonTZ-Clustered-0.002:	242	7	0	0
                                                                           Data-Password-Common-0.004:	248	0	4	2
@@ -60,7 +60,7 @@
                                                                Dist-Zilla-Plugin-Doppelgaenger-0.005:	273	0	0	0
                                                                                 Crypt-Diceware-0.003:	275	0	0	0
                                                                                 File-RandomLine-0.20:	276	1	0	0
-                                                                                     Path-Tiny-0.051:	277	0	0	0
+                                                                                     Path-Tiny-0.051:	278	0	0	0
                                                                                 PGP-Words-Tiny-0.002:	281	0	0	0
                                                                           Dancer-Session-Cookie-0.22:	284	55	1	0
                                                                                 Try-Tiny-Retry-0.002:	287	0	0	0
@@ -71,8 +71,8 @@
                                                                              Mail-Box-IMAP4-SSL-0.02:	297	102	3	2
                                                                          Dancer-Plugin-Adapter-0.004:	301	19	0	0
                                                                                       Metabase-1.001:	302	83	0	0
-                                                                           CPAN-Reporter-Smoker-0.25:	309	0	0	2
                                                                          Simulation-Sensitivity-0.12:	309	0	0	0
+                                                                           CPAN-Reporter-Smoker-0.25:	309	0	0	2
                                                                         Dancer-Plugin-Deferred-0.003:	311	25	6	0
                                                                          Acme-Module-Build-Tiny-0.06:	318	4	0	2
                                                                                 Module-Build-0.39_01:	329	10	1	0
@@ -87,7 +87,7 @@
                                                                         Session-Storage-Secure-0.007:	400	1	0	0
                                                           Dist-Zilla-Plugin-AppendExternalData-0.003:	408	0	0	0
                                                                               Task-Metabase-1.100760:	440	0	1	0
-                                                         MooseX-Types-Path-Class-MoreCoercions-0.003:	457	0	0	0
+                                                         MooseX-Types-Path-Class-MoreCoercions-0.003:	458	0	0	0
                                                                            App-mymeta_requires-0.005:	462	0	2	0
                                                                         TAP-Harness-Restricted-0.002:	466	2	0	0
                                                                       App-CPAN-Testers-Remailer-0.01:	467	0	4	3
@@ -139,8 +139,8 @@
                                                                           ExtUtils-CBuilder-0.280205:	1125	12	0	4
                                                                         MooseX-Types-Path-Tiny-0.002:	1138	1	4	0
                                                                              Net-Amazon-Config-0.001:	1147	1	0	2
-                                                                               Path-Class-Rule-0.018:	1202	1	0	0
-                                                          Dist-Zilla-Plugin-BumpVersionFromGit-0.009:	1215	57	0	2
+                                                                               Path-Class-Rule-0.018:	1204	1	0	0
+                                                          Dist-Zilla-Plugin-BumpVersionFromGit-0.009:	1218	57	0	2
                                                                             Path-Iterator-Rule-1.006:	1285	6	24	0
                                                                                      App-Cpan-1.5902:	1288	386	2	2
                                                                                 Class-InsideOut-1.13:	1291	1	0	0
