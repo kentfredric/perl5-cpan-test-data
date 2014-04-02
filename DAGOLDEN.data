@@ -1,7 +1,7 @@
+                                                              CPAN-Test-Dummy-Perl5-Make-PLExit-1.01:	0	0	0	2
                                                                                             Foo-1.23:	0	0	0	10
                                                        CPAN-Test-Dummy-Perl5-Make-PerlReq-Fail-0.001:	0	0	597	1
                                                   CPAN-Test-Dummy-Perl5-Make-FailConfigRequires-1.00:	0	0	0	3
-                                                              CPAN-Test-Dummy-Perl5-Make-PLExit-1.01:	0	0	0	2
                                                             CPAN-Test-Dummy-Perl5-Make-FailLate-1.02:	0	49	0	593
                                                                       Metabase-Backend-MongoDB-1.000:	0	100	4	0
                                                                                      Test-Float-0.10:	2	0	0	0
@@ -29,8 +29,8 @@
                                                                        Dancer2-Plugin-Deferred-0.005:	156	15	2	0
                                                                    Dancer-Plugin-Queue-MongoDB-0.003:	160	0	0	0
                                                                         Dancer2-Session-Sereal-0.001:	163	52	0	0
-                                                     Dist-Zilla-Plugin-BumpVersionAfterRelease-0.002:	169	0	0	0
                                                                           Dancer2-Session-JSON-0.001:	169	0	17	0
+                                                     Dist-Zilla-Plugin-BumpVersionAfterRelease-0.002:	169	0	0	0
                                                                           Dancer2-Plugin-Queue-0.004:	171	14	1	0
                                                                  Dancer2-Plugin-Syntax-GetPost-0.002:	188	0	0	0
                                                                        Dancer2-Session-MongoDB-0.002:	197	0	0	0
@@ -54,18 +54,18 @@
                                                                                        Meerkat-0.009:	257	2	5	0
                                                                            App-CPAN-Mini-Visit-0.008:	257	10	0	0
                                                                                           ylib-0.003:	269	1	0	0
+                                                                                      Test-NoXS-1.03:	270	0	0	0
                                                          Dist-Zilla-Plugin-RemovePhasedPrereqs-0.002:	270	0	0	0
                                                                                Path-Tiny-0.053-TRIAL:	270	0	0	0
-                                                                                      Test-NoXS-1.03:	270	0	0	0
                                                              Dist-Zilla-Plugin-CheckExtraTests-0.021:	272	7	0	0
-                                                                                  HTTP-Tiny-UA-0.002:	274	0	1	0
                                                                Dist-Zilla-Plugin-Doppelgaenger-0.007:	274	0	0	0
+                                                                                  HTTP-Tiny-UA-0.002:	274	0	1	0
                                                                                Object-LocalVars-0.21:	279	0	0	0
                                                                                 PGP-Words-Tiny-0.002:	285	0	0	0
                                                                                 Crypt-Diceware-0.003:	286	0	0	0
                                                                                   Text-BoxPlot-0.001:	296	0	0	0
-                                                                  CPAN-Test-Dummy-Perl5-RecSug-0.001:	297	0	0	0
                                                                                         ToolSet-1.01:	297	0	5	0
+                                                                  CPAN-Test-Dummy-Perl5-RecSug-0.001:	297	0	0	0
                                                                                 HTTP-CookieJar-0.006:	299	0	2	0
                                                                                       Metabase-1.001:	302	83	0	0
                                                                                   Test-DiagINC-0.004:	308	0	0	0
@@ -171,4 +171,4 @@
                                                       Dist-Zilla-Plugin-CheckChangesHasContent-0.006:	3541	22	4	1
                                                                                    File-chdir-0.1008:	3797	11	0	6
                                                                         CPAN-Testers-Report-1.999001:	5011	1	0	6
-                                                                                    Sub-Uplevel-0.24:	5377	1	0	21
+                                                                                    Sub-Uplevel-0.24:	5378	1	0	21
