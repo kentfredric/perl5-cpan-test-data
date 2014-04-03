@@ -4,10 +4,10 @@
                                                                 ElasticSearchX-Model-Generator-0.1.8:	2	0	3	0
                                                                         MooseX-TypeArray-0.2.0-TRIAL:	7	0	223	0
                                                   DBIx-Class-InflateColumn-Serializer-JSYNC-0.001000:	25	0	0	0
-                                                                    GraphViz2-Abstract-Edge-0.002000:	26	0	0	0
                                                                     GraphViz2-Abstract-Node-0.002000:	26	0	18	0
-                                                      Dist-Zilla-PluginBundle-Author-KENTNL-2.012002:	37	0	0	0
+                                                                    GraphViz2-Abstract-Edge-0.002000:	26	0	0	0
                                                                IO-Async-XMLStream-SAXReader-0.001000:	39	0	0	0
+                                                      Dist-Zilla-PluginBundle-Author-KENTNL-2.012002:	40	0	0	0
                                                                      Tie-IxHash-ButMoreFun-1.0921204:	45	12	0	0
                                                                 Dist-Zilla-PluginBundle-KENTNL-1.0.1:	81	0	0	0
                                                                               Set-Associate-0.003000:	93	0	30	0
@@ -19,7 +19,7 @@
                                                               Gentoo-ChangeLog-Parser-Eventual-0.1.2:	137	0	3	0
                                                                      ELF-Extract-Sections-0.03000101:	151	149	2	0
                                                       Dist-Zilla-PluginBundle-KENTNL-Lite-0.01009803:	155	0	0	0
-                                                                     App-cpanm-meta-checker-0.001001:	161	0	0	0
+                                                                     App-cpanm-meta-checker-0.001001:	165	0	0	0
                                                            File-Tempdir-ForPackage-FromArchive-0.1.0:	177	0	3	0
                                                                     DBIx-Class-EncodedColumn-0.00005:	181	2	0	0
                                                                         Git-PurePerl-Walker-0.002000:	184	1	0	0
@@ -34,8 +34,8 @@
                                                     Dist-Zilla-PluginBundle-Author-KENTNL-Lite-1.7.2:	211	0	0	0
                                                                       Gentoo-Overlay-Group-INI-0.2.2:	213	6	3	0
                                                   Dist-Zilla-Plugin-MetaProvides-FromFile-1.11060211:	215	1	0	0
-                                                                                 Package-Debug-0.2.2:	216	0	5	0
                                                                            Gentoo-Perl-Distmap-0.2.0:	216	0	1	0
+                                                                                 Package-Debug-0.2.2:	216	0	5	0
                                                                          CPAN-Changes-Markdown-0.2.2:	222	0	3	0
                                                                                        MetaPOD-0.3.6:	226	0	0	0
                                                                        MooseX-AttributeIndexes-1.0.3:	227	0	3	0
@@ -83,13 +83,13 @@
                                                                                 Gentoo-Overlay-1.0.5:	341	1	0	0
                                                         MooseX-Attribute-ValidateWithException-0.3.1:	351	0	0	0
                                                                 Test-CPAN-Changes-ReallyStrict-0.2.0:	374	0	0	0
-                                                          Dist-Zilla-Plugin-Git-NextRelease-0.002010:	381	1	0	0
                                                                              Spark-Form-0.2103-TRIAL:	381	1	0	0
+                                                          Dist-Zilla-Plugin-Git-NextRelease-0.002010:	383	1	0	0
                                                                             IPC-Run-Fused-0.04000100:	388	5	0	0
-                                         Dist-Zilla-Plugin-Prereqs-Recommend-MatchInstalled-0.001000:	393	0	2	0
+                                         Dist-Zilla-Plugin-Prereqs-Recommend-MatchInstalled-0.001000:	395	0	2	0
                                                              Dist-Zilla-App-Command-dumpphases-0.6.0:	415	2	0	0
                                                                     Test-StructuredObject-0.01000010:	444	0	0	0
-                                                                           Git-Wrapper-Plus-0.004010:	444	0	0	0
+                                                                           Git-Wrapper-Plus-0.004010:	446	0	0	0
                                                              Dist-Zilla-UtilRole-MaybeZilla-0.001000:	452	0	0	0
                                                                      Dist-Zilla-Util-RoleDB-0.001000:	456	0	0	0
                                                              Log-Contextual-LogDispatchouli-0.001000:	482	0	0	0
@@ -98,24 +98,24 @@
                                                                              Data-Couplet-0.02004314:	542	0	1	0
                                                               Gentoo-PerlMod-Version-FixEbuild-0.1.1:	608	0	0	0
                                                                    Gentoo-MetaEbuild-Spec-Base-0.1.4:	650	2	8	0
-                                                Dist-Zilla-Plugin-Git-NextVersion-Sanitized-0.001000:	731	0	0	0
-                                                               File-ShareDir-ProjectDistDir-1.000001:	735	0	0	0
-                                                                 Dist-Zilla-Role-BundleDeps-0.001001:	758	0	0	0
-                                                     Dist-Zilla-Plugin-MetaProvides-Package-2.000001:	764	1	16	0
-                                                                Dist-Zilla-Util-Test-KENTNL-1.000000:	774	0	0	0
-                                                             Dist-Zilla-Plugin-MetaProvides-2.000000:	777	0	0	0
-                                                           Dist-Zilla-Role-Version-Sanitize-0.001002:	782	1	0	0
-                                                                                  Path-FindDev-0.5.0:	783	0	0	0
+                                                Dist-Zilla-Plugin-Git-NextVersion-Sanitized-0.001000:	733	0	0	0
+                                                               File-ShareDir-ProjectDistDir-1.000001:	745	0	0	0
+                                                                 Dist-Zilla-Role-BundleDeps-0.001001:	759	0	0	0
+                                                     Dist-Zilla-Plugin-MetaProvides-Package-2.000001:	765	1	16	0
+                                                                Dist-Zilla-Util-Test-KENTNL-1.000000:	775	0	0	0
+                                                             Dist-Zilla-Plugin-MetaProvides-2.000000:	778	0	0	0
+                                                           Dist-Zilla-Role-Version-Sanitize-0.001002:	784	1	0	0
+                                                                                  Path-FindDev-0.5.0:	793	0	0	0
                                                                                 HTTP-Tiny-Mech-0.2.1:	810	0	0	0
-                                                                                 Path-IsDev-1.001000:	832	0	0	0
-                                                     Dist-Zilla-Plugin-MetaData-BuiltWith-0.04000002:	839	0	0	0
+                                                     Dist-Zilla-Plugin-MetaData-BuiltWith-0.04000002:	841	0	0	0
+                                                                                 Path-IsDev-1.001000:	842	0	0	0
                                                   Dist-Zilla-Plugin-Prereqs-MatchInstalled-All-0.1.2:	852	4	15	0
-                                                      Dist-Zilla-Plugin-Prereqs-MatchInstalled-0.1.6:	867	0	12	0
-                                                     Dist-Zilla-Plugin-Test-Compile-PerFile-0.001001:	898	0	0	0
+                                                      Dist-Zilla-Plugin-Prereqs-MatchInstalled-0.1.6:	869	0	12	0
+                                                     Dist-Zilla-Plugin-Test-Compile-PerFile-0.001001:	900	0	0	0
                                                      Dist-Zilla-Plugin-MetaProvides-Class-1.14000001:	926	0	0	0
-                                                                           MooseX-Has-Sugar-1.000000:	991	0	0	0
-                                                                     Dist-Zilla-Role-Bootstrap-0.2.3:	1026	0	0	0
-                                                          Dist-Zilla-Plugin-Bootstrap-lib-0.04000002:	1036	6	0	0
-                                                                         Test-File-ShareDir-1.000000:	1040	0	0	0
-                                                             Dist-Zilla-Util-EmulatePhase-0.01025803:	1143	0	0	0
-                                                                                  Path-ScanINC-0.011:	1209	0	0	0
+                                                                           MooseX-Has-Sugar-1.000000:	992	0	0	0
+                                                                     Dist-Zilla-Role-Bootstrap-0.2.3:	1028	0	0	0
+                                                          Dist-Zilla-Plugin-Bootstrap-lib-0.04000002:	1038	6	0	0
+                                                                         Test-File-ShareDir-1.000000:	1043	0	0	0
+                                                             Dist-Zilla-Util-EmulatePhase-0.01025803:	1145	0	0	0
+                                                                                  Path-ScanINC-0.011:	1211	0	0	0
