@@ -1,7 +1,7 @@
+                                                  CPAN-Test-Dummy-Perl5-Make-FailConfigRequires-1.00:	0	0	0	3
+                                                                                            Foo-1.23:	0	0	0	10
                                                               CPAN-Test-Dummy-Perl5-Make-PLExit-1.01:	0	0	0	2
                                                        CPAN-Test-Dummy-Perl5-Make-PerlReq-Fail-0.001:	0	0	597	1
-                                                                                            Foo-1.23:	0	0	0	10
-                                                  CPAN-Test-Dummy-Perl5-Make-FailConfigRequires-1.00:	0	0	0	3
                                                             CPAN-Test-Dummy-Perl5-Make-FailLate-1.02:	0	49	0	593
                                                                       Metabase-Backend-MongoDB-1.000:	0	100	4	0
                                                                                      Test-Float-0.10:	2	0	0	0
@@ -64,8 +64,8 @@
                                                                                 Crypt-Diceware-0.003:	287	0	0	0
                                                                                   Text-BoxPlot-0.001:	296	0	0	0
                                                                   CPAN-Test-Dummy-Perl5-RecSug-0.001:	298	0	0	0
-                                                          Dist-Zilla-Plugin-CheckStrictVersion-0.001:	300	0	0	0
                                                                                         ToolSet-1.01:	300	0	5	0
+                                                          Dist-Zilla-Plugin-CheckStrictVersion-0.001:	302	0	0	0
                                                                                 HTTP-CookieJar-0.006:	302	0	2	0
                                                                                       Metabase-1.001:	302	83	0	0
                                                                                   Test-DiagINC-0.004:	311	1	0	0
@@ -93,7 +93,7 @@
                                                                        Dancer-Plugin-Auth-Tiny-0.002:	385	13	0	0
                                                                            MooseX-Role-MongoDB-0.007:	389	0	5	0
                                                              Dist-Zilla-Plugin-InsertCopyright-0.005:	389	6	0	0
-                                                             Dist-Zilla-Plugin-CheckExtraTests-0.021:	400	21	0	0
+                                                             Dist-Zilla-Plugin-CheckExtraTests-0.021:	400	22	0	0
                                                                             MooseX-Role-Logger-0.002:	414	0	6	0
                                                                         Session-Storage-Secure-0.007:	432	1	0	0
                                                           Dist-Zilla-Plugin-AppendExternalData-0.003:	440	0	0	0
@@ -111,15 +111,15 @@
                                                                                 Devel-Autoflush-0.06:	548	0	0	0
                                                                                   CPAN-Meta-2.140640:	555	0	7	0
                                                                        Exception-Class-TryCatch-1.13:	560	0	0	0
-                                                                                CPAN-Reporter-1.2011:	565	31	0	0
+                                                                                CPAN-Reporter-1.2011:	566	31	0	0
                                                                    Dist-Zilla-Plugin-OSPrereqs-0.003:	583	0	0	0
                                                                                 Test-MockRandom-1.01:	593	0	0	0
-                                                                                    File-pushd-1.006:	595	0	1	0
                                                                          CPAN-Mini-Devel-Recent-0.06:	595	0	0	1
+                                                                                    File-pushd-1.006:	596	0	1	0
                                                                             Task-CPAN-Reporter-0.001:	630	0	0	1
                                                                                         install-0.01:	632	0	0	0
                                                                               Parse-CPAN-Meta-1.4414:	635	0	6	0
-                                                           Dist-Zilla-Plugin-Meta-Contributors-0.001:	641	0	0	0
+                                                           Dist-Zilla-Plugin-Meta-Contributors-0.001:	642	0	0	0
                                                                                       Test-API-0.004:	661	0	0	0
                                                                                    Perl-OSType-1.007:	685	0	0	0
                                                                   CPAN-Testers-Metabase-AWS-1.999002:	703	0	0	0
