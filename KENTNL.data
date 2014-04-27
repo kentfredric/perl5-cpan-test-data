@@ -1,8 +1,8 @@
                                                                                      PortageXS-0.3.1:	0	0	4	0
                                                                        Paludis-UseCleaner-0.01000307:	1	0	0	0
                                                                              Cave-Wrapper-0.01100100:	1	0	0	0
-                                                                Dist-Zilla-Util-SimpleMunge-1.000001:	2	0	0	0
                                                                 ElasticSearchX-Model-Generator-0.1.8:	3	0	3	0
+                                                                Dist-Zilla-Util-SimpleMunge-1.000001:	5	0	0	0
                                                                         MooseX-TypeArray-0.2.0-TRIAL:	9	0	223	0
                                                   DBIx-Class-InflateColumn-Serializer-JSYNC-0.001000:	26	0	0	0
                                                                     GraphViz2-Abstract-Node-0.002000:	27	0	18	0
@@ -27,12 +27,12 @@
                                                            Search-GIN-Extract-AttributeIndexes-1.0.2:	192	0	3	0
                                                                        File-Tempdir-ForPackage-0.1.1:	199	0	6	0
                                                                                String-Sections-0.3.2:	205	0	8	0
-                                                                             Net-Travis-API-0.001001:	207	0	4	0
                                                                              Gentoo-MirrorList-1.0.2:	207	0	2	0
                                                    Dist-Zilla-Plugin-AutoVersion-Relative-0.03000002:	211	0	0	0
+                                                                             Net-Travis-API-0.001001:	211	0	4	0
                                                                       Gentoo-Overlay-Group-INI-0.2.2:	214	6	3	0
-                                                                           Gentoo-Perl-Distmap-0.2.0:	217	0	1	0
                                                     Dist-Zilla-PluginBundle-Author-KENTNL-Lite-1.7.2:	217	0	0	0
+                                                                           Gentoo-Perl-Distmap-0.2.0:	217	0	1	0
                                                                                  Package-Debug-0.2.2:	218	0	5	0
                                                   Dist-Zilla-Plugin-MetaProvides-FromFile-1.11060211:	220	1	0	0
                                                                                        MetaPOD-0.3.6:	229	0	0	0
@@ -46,9 +46,9 @@
                                                                Gentoo-Perl-Distmap-FromOverlay-0.1.0:	253	0	2	0
                                                    Dist-Zilla-Plugin-Bootstrap-ShareDir-Module-0.2.0:	254	0	0	0
                                                                                Task-Spark-Form-1.0.1:	254	0	3	0
+                                                     Dist-Zilla-Plugin-Bootstrap-ShareDir-Dist-0.3.0:	256	0	0	0
                                                              Dist-Zilla-Plugin-Prereqs-DarkPAN-0.2.4:	256	0	0	0
                                                           Dist-Zilla-Plugin-ModuleInstall-0.02000000:	256	0	0	0
-                                                     Dist-Zilla-Plugin-Bootstrap-ShareDir-Dist-0.3.0:	256	0	0	0
                                                          Path-IsDev-HeuristicSet-FromConfig-0.002000:	256	3	0	0
                                                                            MetaPOD-Format-JSON-0.3.0:	260	0	3	0
                                                                  Color-Library-Dictionary-XKCD-0.1.0:	262	0	3	0
@@ -56,11 +56,11 @@
                                                               Dist-Zilla-App-Command-critic-0.001001:	266	0	0	0
                                                                              Module-Data-0.012-TRIAL:	267	1	0	0
                                                       Dist-Zilla-Plugin-Git-Remote-Check-0.2.0-TRIAL:	271	0	0	0
-                                                               Dist-Zilla-Util-Git-Branches-0.001000:	272	0	0	0
-                                                           Dist-Zilla-Plugin-Prereqs-Soften-0.004000:	272	0	0	0
                                                            Dist-Zilla-App-Command-lsplugins-0.001000:	272	0	0	0
+                                                               Dist-Zilla-Util-Git-Branches-0.001000:	272	0	0	0
                                                                        Package-Strictures-0.01001319:	273	3	0	0
                                                             Dist-Zilla-Plugin-LogContextual-0.001000:	274	0	0	0
+                                                           Dist-Zilla-Plugin-Prereqs-Soften-0.004000:	274	0	0	0
                                                         Paludis-ResumeState-Serialization-0.01000410:	276	0	4	0
                                                      Dist-Zilla-Plugin-Prereqs-SyncVersions-0.001001:	276	1	0	0
                                                             Dist-Zilla-App-Command-dumpwith-0.001000:	283	0	0	0
@@ -69,7 +69,7 @@
                                                                       CPAN-Changes-Markdown-1.000000:	289	0	0	0
                                                                               Data-Handle-0.02001003:	289	0	0	0
                                                                      App-cpanm-meta-checker-0.001001:	290	0	0	0
-                                                               Dist-Zilla-Util-EmulatePhase-1.000000:	290	2	0	0
+                                                               Dist-Zilla-Util-EmulatePhase-1.000000:	291	2	0	0
                                                    Catalyst-Authentication-Credential-RPX-0.10060100:	294	0	0	0
                                                                 Dist-Zilla-Util-Git-Wrapper-0.003000:	297	0	0	0
                                                                    Dist-Zilla-Util-Git-Tags-0.004000:	298	0	0	0
@@ -82,7 +82,7 @@
                                                           GraphViz2-Abstract-Util-Constants-0.001000:	329	0	0	0
                                                                         App-colourhexdump-0.01011318:	333	0	1	0
                                                              Dist-Zilla-Plugin-Prereqs-Plugins-0.1.3:	336	1	3	0
-                                                                                  Path-ScanINC-0.020:	340	0	0	0
+                                                                                  Path-ScanINC-0.020:	341	0	0	0
                                                                Gentoo-MetaEbuild-Spec-MiniSpec-0.1.1:	341	0	3	0
                                                                                 Gentoo-Overlay-1.0.5:	345	1	0	0
                                                         MooseX-Attribute-ValidateWithException-0.3.1:	356	0	0	0
