@@ -1,17 +1,18 @@
                                                                                      PortageXS-0.3.1:	0	0	4	0
-                                                                             Cave-Wrapper-0.01100100:	1	0	0	0
                                                                        Paludis-UseCleaner-0.01000307:	1	0	0	0
+                                                                             Cave-Wrapper-0.01100100:	1	0	0	0
                                                                 ElasticSearchX-Model-Generator-0.1.8:	3	0	3	0
+                                                   Dist-Zilla-Plugin-Prereqs-MatchInstalled-1.000000:	6	0	0	0
                                                                         MooseX-TypeArray-0.2.0-TRIAL:	9	0	223	0
                                                   DBIx-Class-InflateColumn-Serializer-JSYNC-0.001000:	26	0	0	0
-                                                                    GraphViz2-Abstract-Edge-0.002000:	27	0	0	0
                                                                     GraphViz2-Abstract-Node-0.002000:	27	0	18	0
-                                                                         Package-Strictures-1.000000:	41	0	0	0
+                                                                    GraphViz2-Abstract-Edge-0.002000:	27	0	0	0
+                                                                         Package-Strictures-1.000000:	42	0	0	0
                                                                      Tie-IxHash-ButMoreFun-1.0921204:	45	12	0	0
                                                                IO-Async-XMLStream-SAXReader-0.001000:	46	0	0	0
                                                                 Dist-Zilla-PluginBundle-KENTNL-1.0.1:	81	0	0	0
                                                                               Set-Associate-0.003000:	95	0	30	0
-                                                                Dist-Zilla-Util-SimpleMunge-1.000001:	104	0	0	0
+                                                                Dist-Zilla-Util-SimpleMunge-1.000001:	107	0	0	0
                                                               Search-GIN-Extract-ClassMap-0.01060817:	116	0	0	0
                                                                                      App-DH-0.001002:	118	2	0	0
                                                                         Net-Minecraft-Login-0.002000:	122	0	20	0
@@ -45,9 +46,9 @@
                                                                Data-Rx-Tools-ShareDirValidator-0.1.3:	247	0	3	0
                                                                Gentoo-Perl-Distmap-FromOverlay-0.1.0:	253	0	2	0
                                                    Dist-Zilla-Plugin-Bootstrap-ShareDir-Module-0.2.0:	254	0	0	0
-                                                             Dist-Zilla-Plugin-Prereqs-DarkPAN-0.2.4:	256	0	0	0
-                                                     Dist-Zilla-Plugin-Bootstrap-ShareDir-Dist-0.3.0:	256	0	0	0
                                                                                Task-Spark-Form-1.0.1:	256	0	3	0
+                                                     Dist-Zilla-Plugin-Bootstrap-ShareDir-Dist-0.3.0:	256	0	0	0
+                                                             Dist-Zilla-Plugin-Prereqs-DarkPAN-0.2.4:	256	0	0	0
                                                          Path-IsDev-HeuristicSet-FromConfig-0.002000:	256	3	0	0
                                                           Dist-Zilla-Plugin-ModuleInstall-0.02000000:	257	0	0	0
                                                                            MetaPOD-Format-JSON-0.3.0:	260	0	3	0
@@ -55,16 +56,16 @@
                                                                Catalyst-Plugin-Spark-Form-0.01000002:	264	0	0	0
                                                               Dist-Zilla-App-Command-critic-0.001001:	267	0	0	0
                                                                              Module-Data-0.012-TRIAL:	267	1	0	0
-                                                                             Net-Travis-API-0.001001:	270	0	4	0
+                                                                             Net-Travis-API-0.001001:	271	0	4	0
                                                                Dist-Zilla-Util-Git-Branches-0.001000:	272	0	0	0
                                                       Dist-Zilla-Plugin-Git-Remote-Check-0.2.0-TRIAL:	272	0	0	0
                                                             Dist-Zilla-Plugin-LogContextual-0.001000:	274	0	0	0
                                                            Dist-Zilla-App-Command-lsplugins-0.001000:	274	0	0	0
                                                      Dist-Zilla-Plugin-Prereqs-SyncVersions-0.001001:	276	1	0	0
                                                            Dist-Zilla-Plugin-Prereqs-Soften-0.004000:	277	0	0	0
-                                                        Paludis-ResumeState-Serialization-0.01000410:	277	0	4	0
-                                                            Dist-Zilla-App-Command-dumpwith-0.001000:	284	0	0	0
+                                                        Paludis-ResumeState-Serialization-0.01000410:	278	0	4	0
                                       Dist-Zilla-Plugin-Author-KENTNL-Prereqs-Latest-Selective-0.1.2:	284	0	0	0
+                                                            Dist-Zilla-App-Command-dumpwith-0.001000:	284	0	0	0
                                                                     Net-TribalWarsMap-API-HTTP-0.1.1:	285	0	4	0
                                                                               Data-Handle-0.02001003:	290	0	0	0
                                                                       CPAN-Changes-Markdown-1.000000:	291	0	0	0
@@ -84,7 +85,7 @@
                                                              Dist-Zilla-Plugin-Prereqs-Plugins-0.1.3:	336	1	3	0
                                                                Gentoo-MetaEbuild-Spec-MiniSpec-0.1.1:	342	0	3	0
                                                                                 Gentoo-Overlay-1.0.5:	346	1	0	0
-                                                                                  Path-ScanINC-0.020:	351	0	0	0
+                                                                                  Path-ScanINC-0.020:	355	0	0	0
                                                         MooseX-Attribute-ValidateWithException-0.3.1:	356	0	0	0
                                                                              Spark-Form-0.2103-TRIAL:	381	1	0	0
                                                                 Test-CPAN-Changes-ReallyStrict-0.2.0:	383	0	0	0
@@ -100,7 +101,7 @@
                                                           Dist-Zilla-Plugin-Git-NextRelease-0.002010:	531	1	0	0
                                          Dist-Zilla-Plugin-Prereqs-Recommend-MatchInstalled-0.001000:	537	0	2	0
                                                                              Data-Couplet-0.02004314:	546	0	1	0
-                                                            Regexp-Grammars-Common-String-0.01000002:	548	0	12	0
+                                                            Regexp-Grammars-Common-String-0.01000002:	549	0	12	0
                                                                            Git-Wrapper-Plus-0.004010:	583	0	0	0
                                                               Gentoo-PerlMod-Version-FixEbuild-0.1.1:	614	0	0	0
                                                                    Gentoo-MetaEbuild-Spec-Base-0.1.4:	655	2	8	0
@@ -114,7 +115,6 @@
                                                                                 HTTP-Tiny-Mech-0.2.1:	925	0	0	0
                                                   Dist-Zilla-Plugin-Prereqs-MatchInstalled-All-0.1.2:	929	4	16	0
                                                      Dist-Zilla-Plugin-MetaProvides-Class-1.14000001:	938	0	0	0
-                                                      Dist-Zilla-Plugin-Prereqs-MatchInstalled-0.1.6:	943	0	14	0
                                                                File-ShareDir-ProjectDistDir-1.000001:	1019	0	0	0
                                                                                   Path-FindDev-0.5.0:	1072	0	0	0
                                                                                  Path-IsDev-1.001000:	1108	1	0	0
