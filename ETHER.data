@@ -1,22 +1,22 @@
-                                                                     Test-CleanNamespaces-0.10-TRIAL:	6	0	0	0
+                                                                     Test-CleanNamespaces-0.10-TRIAL:	9	0	0	0
                                                               Dist-Zilla-Plugin-DynamicPrereqs-0.001:	13	2	0	0
                                                           Dist-Zilla-PluginBundle-Author-ETHER-0.063:	24	0	3	0
                                                                     Plack-App-BeanstalkConsole-0.007:	88	1	0	169
                                                                         Acme-LookOfDisapproval-0.006:	105	0	177	0
-                                                                 Catalyst-Controller-ActionRole-0.16:	110	0	0	0
+                                                                 Catalyst-Controller-ActionRole-0.16:	111	0	0	0
                                                                  Dist-Zilla-Plugin-Conflicts-0.13001:	132	0	0	0
                                                             Test-Mock-LWP-UserAgent-ButAwesome-0.003:	170	0	0	0
                                                                   Dist-Zilla-Plugin-NoTabsTests-0.02:	173	0	0	0
-                                                                                     Test-Class-0.42:	181	0	0	0
+                                                                                     Test-Class-0.42:	184	0	0	0
                                                                                      Tiny-Tiny-0.002:	215	1	1	0
-                                                                                    me-inlined-0.001:	226	1	0	0
-                                                                                Test-Deep-Type-0.004:	227	0	0	0
+                                                                                    me-inlined-0.001:	227	1	0	0
+                                                                                Test-Deep-Type-0.004:	228	0	0	0
                                                                       Dist-CheckConflicts-0.06-TRIAL:	230	0	0	0
-                                                                       MooseX-Types-HTTPMethod-0.001:	233	2	0	0
-                                                    Dist-Zilla-Plugin-MungeFile-WithConfigFile-0.002:	241	0	0	0
+                                                                       MooseX-Types-HTTPMethod-0.001:	234	2	0	0
                                                                            MooseX-Types-ISO8601-0.15:	241	0	0	0
-                                                                                Import-Into-1.002002:	244	0	0	0
+                                                    Dist-Zilla-Plugin-MungeFile-WithConfigFile-0.002:	241	0	0	0
                                                                     Dist-Zilla-Plugin-Keywords-0.005:	246	0	0	0
+                                                                                Import-Into-1.002002:	247	0	0	0
                                                              Dist-Zilla-Plugin-OptionalFeature-0.013:	247	1	1	0
                                                       Dist-Zilla-Plugin-Test-PAUSE-Permissions-0.001:	250	1	0	0
                                                                 Dist-Zilla-Plugin-BlockRelease-0.001:	252	0	0	0
@@ -37,8 +37,8 @@
                                                                     Dist-Zilla-Plugin-CheckBin-0.002:	302	0	0	0
                                                                     Plack-Middleware-LogErrors-0.001:	306	0	0	0
                                                                      Acme-CPANAuthors-Nonhuman-0.015:	314	0	0	0
-                                                                                Test-Deep-YAML-0.002:	315	0	0	0
                                                                               Task-Kensho-Async-0.36:	315	0	0	0
+                                                                                Test-Deep-YAML-0.002:	315	0	0	0
                                                                             CGI-Cookie-Splitter-0.04:	317	0	0	0
                                                                                          Acme-Pi-3.1:	318	0	0	0
                                                                              Task-Kensho-Config-0.36:	319	0	0	0
@@ -59,16 +59,16 @@
                                                                               Task-Kensho-Email-0.36:	336	0	0	0
                                                                            Task-Kensho-ExcelCSV-0.36:	337	0	0	0
                                                                               Task-Kensho-Dates-0.36:	337	0	0	0
-                                                                                Task-Kensho-XML-0.36:	338	0	0	0
                                                                          Task-Kensho-Exceptions-0.36:	338	0	0	0
                                                                             Task-Kensho-Testing-0.36:	338	0	0	0
                                                                             Task-Kensho-Logging-0.36:	338	0	0	0
+                                                                                Task-Kensho-XML-0.36:	338	0	0	0
                                                                           Task-Kensho-Toolchain-0.36:	340	0	0	0
                                                                                 Task-Kensho-OOP-0.36:	341	0	0	0
                                                                                 MooseX-Runnable-0.07:	344	0	0	0
                                                                                   Role-Tiny-1.002002:	349	0	0	0
                                                                               Catalyst-Manual-5.9007:	408	0	0	0
-                                                                            Module-Metadata-1.000022:	422	0	0	0
+                                                                            Module-Metadata-1.000022:	426	0	0	0
                                                                 Dist-Zilla-Plugin-VerifyPhases-0.003:	459	0	0	1
                                                                                     App-Nopaste-0.96:	482	0	0	0
                                                                       MooseX-Object-Pluggable-0.0013:	490	1	0	0
@@ -76,8 +76,8 @@
                                                                              Pod-Coverage-Moose-0.05:	496	0	0	0
                                                                                JSON-MaybeXS-1.002002:	499	0	0	0
                                                                                MooseX-Daemonize-0.19:	514	2	12	0
-                                                                                       JSON-Any-1.33:	551	0	0	0
-                                                                                 MooseX-Storage-0.46:	600	4	0	0
+                                                                                       JSON-Any-1.33:	553	0	0	0
+                                                                                 MooseX-Storage-0.46:	601	4	0	0
                                                                 Dist-Zilla-Plugin-Test-Compile-2.040:	611	7	0	0
                                                           Dist-Zilla-Plugin-MakeMaker-Fallback-0.009:	616	0	0	0
                                                                         MooseX-Types-Set-Object-0.04:	633	0	0	0
@@ -115,8 +115,8 @@
                                                                                MooseX-Types-URI-0.05:	1373	0	0	0
                                                                               Devel-PartialDump-0.17:	1405	0	0	0
                                                                                   Class-Load-XS-0.08:	1435	0	0	3
-                                                                        MooseX-Types-Common-0.001012:	1445	0	0	1
                                                                                      Class-Load-0.21:	1445	0	5	0
+                                                                        MooseX-Types-Common-0.001012:	1445	0	0	1
                                                                         MooseX-MethodAttributes-0.29:	1465	0	0	0
                                                                                   MooseX-Traits-0.12:	1503	0	0	0
                                                                     MooseX-Types-LoadableClass-0.012:	1585	0	0	0
