@@ -3,10 +3,10 @@
                                                                        Paludis-UseCleaner-0.01000307:	1	0	0	0
                                                                 ElasticSearchX-Model-Generator-0.1.8:	9	0	3	0
                                                                         MooseX-TypeArray-0.2.0-TRIAL:	10	0	223	0
-                                                                    GraphViz2-Abstract-Edge-0.002000:	33	0	0	0
                                                                     GraphViz2-Abstract-Node-0.002000:	33	0	18	0
+                                                                    GraphViz2-Abstract-Edge-0.002000:	33	0	0	0
                                                   DBIx-Class-InflateColumn-Serializer-JSYNC-0.001000:	35	0	0	0
-                                                       Dist-Zilla-Plugin-MetaData-BuiltWith-1.000000:	38	0	0	0
+                                                       Dist-Zilla-Plugin-MetaData-BuiltWith-1.000000:	39	0	0	0
                                                                      Tie-IxHash-ButMoreFun-1.0921204:	45	12	0	0
                                                                IO-Async-XMLStream-SAXReader-0.001000:	49	0	0	0
                                                       Dist-Zilla-PluginBundle-Author-KENTNL-2.013004:	71	0	0	0
@@ -18,8 +18,8 @@
                                                                              Perl-Build-Git-0.001000:	140	0	0	0
                                                                     Minecraft-SectionFilter-0.002000:	144	0	1	0
                                                               Gentoo-ChangeLog-Parser-Eventual-0.1.2:	146	0	3	0
-                                                                    Dist-Zilla-Role-Tempdir-1.000000:	154	0	0	0
                                                       Dist-Zilla-PluginBundle-KENTNL-Lite-0.01009803:	155	0	0	0
+                                                                    Dist-Zilla-Role-Tempdir-1.000000:	155	0	0	0
                                                                      ELF-Extract-Sections-0.03000101:	163	151	2	0
                                                                     DBIx-Class-EncodedColumn-0.00005:	181	2	0	0
                                                            File-Tempdir-ForPackage-FromArchive-0.1.0:	191	0	3	0
@@ -48,32 +48,32 @@
                                                    Dist-Zilla-Plugin-Bootstrap-ShareDir-Module-0.2.0:	260	0	0	0
                                                                Gentoo-Perl-Distmap-FromOverlay-0.1.0:	261	0	2	0
                                                              Dist-Zilla-Plugin-Prereqs-DarkPAN-0.2.4:	262	0	0	0
-                                                                               Task-Spark-Form-1.0.1:	262	0	3	0
                                                      Dist-Zilla-Plugin-Bootstrap-ShareDir-Dist-0.3.0:	262	0	0	0
+                                                                               Task-Spark-Form-1.0.1:	262	0	3	0
                                                          Path-IsDev-HeuristicSet-FromConfig-0.002000:	265	3	0	0
                                                           Dist-Zilla-Plugin-ModuleInstall-0.02000000:	266	0	0	0
                                                                            MetaPOD-Format-JSON-0.3.0:	268	0	3	0
                                                                              Module-Data-0.012-TRIAL:	268	1	0	0
                                                                  Color-Library-Dictionary-XKCD-0.1.0:	270	0	3	0
-                                                              Dist-Zilla-App-Command-critic-0.001001:	270	0	0	0
                                                                Catalyst-Plugin-Spark-Form-0.01000002:	270	0	0	0
+                                                              Dist-Zilla-App-Command-critic-0.001001:	270	0	0	0
                                                       Dist-Zilla-Plugin-Git-Remote-Check-0.2.0-TRIAL:	273	0	0	0
                                                                Dist-Zilla-Util-Git-Branches-0.001000:	278	0	0	0
                                                             Dist-Zilla-Plugin-LogContextual-0.001000:	280	0	0	0
                                                      Dist-Zilla-Plugin-Prereqs-SyncVersions-0.001001:	283	1	0	0
                                                            Dist-Zilla-App-Command-lsplugins-0.001000:	286	0	0	0
-                                      Dist-Zilla-Plugin-Author-KENTNL-Prereqs-Latest-Selective-0.1.2:	290	0	0	0
                                                         Paludis-ResumeState-Serialization-0.01000410:	290	0	4	0
+                                      Dist-Zilla-Plugin-Author-KENTNL-Prereqs-Latest-Selective-0.1.2:	290	0	0	0
                                                            Dist-Zilla-Plugin-Prereqs-Soften-0.004000:	290	1	0	0
                                                                     Net-TribalWarsMap-API-HTTP-0.1.1:	293	0	4	0
-                                                                             HTTP-Tiny-Mech-1.000000:	294	0	0	0
                                                                       CPAN-Changes-Markdown-1.000000:	294	0	0	0
+                                                                             HTTP-Tiny-Mech-1.000000:	295	0	0	0
                                                                      App-cpanm-meta-checker-0.001001:	295	0	0	0
                                                             Dist-Zilla-App-Command-dumpwith-0.001000:	296	0	0	0
                                                                    Dist-Zilla-Util-Git-Tags-0.004000:	304	0	0	0
                                                                               Data-Handle-0.02001003:	309	0	0	0
-                                                   Catalyst-Authentication-Credential-RPX-0.10060100:	310	0	0	0
                                                                           Gentoo-Overlay-Group-0.2.0:	310	0	3	0
+                                                   Catalyst-Authentication-Credential-RPX-0.10060100:	310	0	0	0
                                                                               lib-byversion-0.001001:	312	0	0	0
                                                                          Package-Strictures-1.000000:	313	0	0	0
                                                                                     Net-API-RPX-0.04:	315	0	0	0
@@ -94,7 +94,7 @@
                                                                 Dist-Zilla-Util-Git-Wrapper-0.003000:	459	6	0	0
                                                                     Test-StructuredObject-0.01000010:	463	0	0	0
                                                                         Gentoo-PerlMod-Version-0.6.0:	509	0	4	0
-                                                                                  Path-ScanINC-0.020:	522	0	0	0
+                                                                                  Path-ScanINC-0.020:	524	0	0	0
                                                              Dist-Zilla-App-Command-dumpphases-0.6.0:	544	5	0	0
                                                                 Test-CPAN-Changes-ReallyStrict-0.2.0:	556	0	0	0
                                                                              Data-Couplet-0.02004314:	561	0	1	0
@@ -119,4 +119,4 @@
                                                                                   Path-FindDev-0.5.0:	1206	0	0	0
                                                                                  Path-IsDev-1.001000:	1236	1	0	1
                                                                            MooseX-Has-Sugar-1.000000:	1268	0	0	1
-                                                                         Test-File-ShareDir-1.000000:	1351	0	0	0
+                                                                         Test-File-ShareDir-1.000000:	1352	0	0	0
