@@ -53,7 +53,7 @@ sub lpad_highlight {
 
 sub hlpair {
     my ( $l, $r ) = @_;
-    print "\e[37m$l:\e[0m $r, ";
+    print "\e[36m$l:\e[0m $r, ";
 }
 for my $item ( sort { $a->{fulldate} <=> $b->{fulldate} } @{$array} ) {
     if ( $ARGV[0] ) {
@@ -69,12 +69,12 @@ for my $item ( sort { $a->{fulldate} <=> $b->{fulldate} } @{$array} ) {
     for my $key (
         qw( osname ostext osvers fulldate platform csspatch cssperl perl ))
     {
-        hlpair( $key, $item->{$key} );
+        hlpair( $key, $item->{$key} // 'undef' );
     }
     print "\n";
     print "\t";
     for my $key (qw( tester )) {
-        hlpair( $key, $item->{$key} );
+        hlpair( $key, $item->{$key} // 'undef' );
     }
     print lpad_highlight( $item->{status}, 60,
         "http://www.cpantesters.org/cpan/report/" . $item->{guid} );
