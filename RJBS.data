@@ -9,10 +9,10 @@
                                                                      Task-Email-PEP-NoStore-8100.021:	17	0	1	7
                                                                                 MooseX-Worm-0.100470:	19	0	0	0
                                                                             ExtUtils-FakeMaker-0.002:	20	1	2	0
-                                                                   HTML-Widget-Plugin-Calendar-0.022:	23	0	0	0
                                                                              Config-INI-Reader-0.004:	25	0	0	0
-                                                                     HTML-Widget-Plugin-Struct-0.005:	31	0	0	0
+                                                                   HTML-Widget-Plugin-Calendar-0.022:	28	0	0	0
                                                                         Task-Deprecations-5_12-1.001:	35	0	0	0
+                                                                     HTML-Widget-Plugin-Struct-0.005:	36	0	0	0
                                                                                   Metabase-Web-0.001:	37	128	0	2
                                                                              Data-Rx-Type-Perl-0.001:	38	23	0	0
                                                                 Mail-SpamAssassin-SimpleClient-0.102:	42	0	0	0
@@ -23,7 +23,7 @@
                                                                      Querylet-Output-Excel-OLE-0.143:	83	0	0	0
                                                                               Catalyst-Manual-5.7014:	98	1	0	1
                                                                           Games-Nintendo-Mario-0.208:	114	0	32	0
-                                                                             Email-MIME-Kit-2.102014:	116	0	0	0
+                                                                             Email-MIME-Kit-2.102014:	131	0	0	0
                                                                        Task-BeLike-RJBS-20131116.000:	139	0	9	0
                                                                                       ZMachine-0.004:	163	0	8	0
                                                                                    Router-Dumb-0.005:	166	0	15	0
@@ -34,8 +34,8 @@
                                                                                Mail-Audit-DKIM-0.003:	194	70	0	0
                                                                         Metabase-Client-Simple-0.001:	200	1	0	1
                                                                         MasonX-Compiler-Strict-0.001:	203	0	0	0
-                                                                         HTML-Widget-Plugin-JS-0.005:	205	0	0	0
                                                                       HTML-Widget-Plugin-Combo-0.004:	208	0	0	0
+                                                                         HTML-Widget-Plugin-JS-0.005:	209	0	0	0
                                                                       MasonX-Component-RunMain-0.001:	209	0	0	0
                                                                          Config-INI-MVP-Reader-0.018:	215	0	1	0
                                                                              Data-Rx-Type-PCRE-0.005:	219	0	2	0
@@ -49,61 +49,61 @@
                                                                         Log-Dispatch-TextTable-0.032:	255	0	0	0
                                                                         CGI-Application-Server-0.063:	257	0	0	0
                                                                             Email-Folder-IMAPS-1.105:	259	0	0	0
-                                                                                     App-Whiff-0.005:	260	0	0	0
                                                       Email-MIME-Kit-Renderer-Text-Template-1.101302:	260	0	0	0
+                                                                                     App-Whiff-0.005:	260	0	0	0
                                                                                   Email-Thread-0.712:	261	0	0	0
                                                                                Git-Megapull-0.101752:	261	0	0	0
                                                              Email-Simple-Test-TraceHeaders-0.091702:	262	0	0	0
                                                                                    Games-Board-1.013:	263	0	0	0
                                                         Exception-Reporter-Summarizer-Catalyst-0.004:	263	1	0	0
                                                                               Email-Pipemailer-1.001:	264	0	0	0
-                                                                             Email-Folder-IMAP-1.105:	265	0	0	0
                                                                                   Sub-MicroSig-0.033:	265	0	0	0
+                                                                             Email-Folder-IMAP-1.105:	265	0	0	0
                                                                                    Macro-Micro-0.054:	267	0	0	0
                                                                                      Chess-960-0.002:	267	0	10	0
                                                                             Mail-LocalDelivery-0.305:	272	22	0	0
                                                                                         Rubric-0.155:	273	2	0	0
                                                                            Email-Stuffer-0.010-TRIAL:	273	15	0	0
                                                                  MasonX-Resolver-WidgetFactory-0.009:	274	23	0	0
-                                                                                  List-MapList-1.123:	275	0	0	0
                                                                                   MRO-Magic-0.100001:	275	0	2	0
-                                                                                   Email-Reply-1.203:	277	0	0	0
+                                                                                  List-MapList-1.123:	275	0	0	0
                                                                  Acme-Lingua-EN-Inflect-Modern-0.006:	277	0	0	0
+                                                                                   Email-Reply-1.203:	277	0	0	0
                                                                      Querylet-Output-Excel-XLS-0.134:	278	0	0	0
-                                                                           Postfix-Parse-Mailq-1.004:	280	0	0	0
                                                                               Mail-Postfix-Attr-0.06:	280	0	23	5
-                                                                                    Games-Dice-0.043:	281	0	2	0
+                                                                           Postfix-Parse-Mailq-1.004:	280	0	0	0
                                                                Rubric-Entry-Formatter-Markdown-0.555:	281	0	0	0
+                                                                                    Games-Dice-0.043:	281	0	2	0
                                                                               HTML-MasonX-Free-0.005:	281	1	0	0
                                                                       Dist-Zilla-Plugin-Git-1.121820:	282	33	12	0
                                                                                Net-Continental-0.013:	284	0	0	0
                                                                                Math-VarRate-0.100000:	286	0	0	0
-                                                                    Bryar-DataSource-Multiplex-0.122:	287	0	0	4
                                                                                   Data-TagHive-0.003:	287	0	10	0
+                                                                    Bryar-DataSource-Multiplex-0.122:	287	0	0	4
                                                                                MIME-BodyMunger-0.006:	291	0	0	0
                                                                       Religion-Bible-Reference-0.015:	291	0	0	0
                                                                                  Email-Send-IO-2.201:	291	0	0	0
-                                                                                    Data-Rx-0.200006:	292	0	0	0
                                                                           HTML-Form-ForceValue-0.009:	292	0	0	0
+                                                                                    Data-Rx-0.200006:	292	0	0	0
                                                                                Math-Calculator-1.022:	293	0	0	0
                                                              App-Addex-AddressBook-AppleScript-0.007:	293	0	2	0
                                                                                 Sort-ByExample-0.006:	295	0	0	0
                                                                                 Object-Capsule-0.012:	296	0	0	0
                                                                    App-Addex-Plugin-Hiveminder-0.006:	296	0	0	0
                                                                        App-Addex-Plugin-Nobody-0.005:	297	0	0	0
-                                                                          Time-Duration-Object-0.301:	299	0	0	0
                                                                               Config-Singleton-0.004:	299	0	0	0
-                                                                            Mixin-Historian-0.102000:	300	0	0	0
+                                                                          Time-Duration-Object-0.301:	299	0	0	0
                                                                             WWW-AdventCalendar-1.111:	300	0	0	0
+                                                                            Mixin-Historian-0.102000:	300	0	0	0
                                                                                      App-Addex-0.026:	301	0	0	0
                                                                  Mixin-ExtraFields-Driver-DBIC-0.004:	301	3	0	0
                                                                              Data-GUID-URLSafe-0.006:	302	0	0	0
-                                                                                Number-Nary-1.100312:	303	0	0	0
                                                                                 DBIx-Locker-0.100117:	303	0	0	0
                                                                                          fewer-0.203:	303	0	9	0
-                                                                Email-MIME-Attachment-Stripper-1.317:	304	0	0	0
+                                                                                Number-Nary-1.100312:	303	0	0	0
                                                                        Sub-Exporter-Lexical-0.092292:	304	0	7	0
                                                                                Object-Annotate-0.024:	304	0	0	0
+                                                                Email-MIME-Attachment-Stripper-1.317:	304	0	0	0
                                                                            Image-MetaData-JPEG-0.156:	305	1	0	0
                                                                                 Process-Status-0.003:	307	0	0	0
                                                                    App-Addex-AddressBook-Abook-0.008:	309	5	0	0
@@ -116,26 +116,26 @@
                                                                                 Mail-Audit-PGP-1.702:	314	0	0	0
                                                                              Email-Folder-POP3-1.015:	315	0	0	0
                                                                 Email-MIME-Kit-Validator-Rx-0.200001:	316	0	0	0
-                                                                         Task-Deprecations5_12-1.002:	317	0	0	0
                                                                              Math-TotalBuilder-1.102:	317	0	0	0
+                                                                         Task-Deprecations5_12-1.002:	317	0	0	0
                                                                                       Amce-CNA-0.066:	318	0	0	2
                                                                                  Kwiki-IRCMode-0.302:	318	0	1	2
-                                                                                      URI-cpan-1.005:	319	0	0	0
                                                           Email-MIME-Kit-Assembler-Markdown-0.100001:	319	0	0	0
+                                                                                      URI-cpan-1.005:	319	0	0	0
                                                                        Email-Simple-FromHandle-0.054:	322	0	0	0
                                                                          File-LinkTree-Builder-0.006:	324	22	0	0
                                                                                     CPAN-Faker-0.010:	325	0	0	0
-                                                                                  HTML-FromText-2.07:	329	0	0	0
                                                                                    Email-Stuff-2.105:	329	0	0	0
+                                                                                  HTML-FromText-2.07:	329	0	0	0
                                                                                   Sub-Pipeline-0.011:	331	0	0	0
-                                                                                      Pod-CYOA-0.002:	337	0	0	0
                                                                           Querylet-Output-Text-0.113:	337	0	0	0
+                                                                                      Pod-CYOA-0.002:	337	0	0	0
                                                                               Time-Piece-MSSQL-0.022:	338	0	0	0
                                                                   Dist-Zilla-PluginBundle-RJBS-5.004:	340	0	0	0
                                                                                   Data-Message-1.104:	340	6	0	0
                                                                                   Querylet-CGI-0.143:	342	0	0	0
-                                                                          Class-Accessor-Class-0.503:	347	0	0	0
                                                                                 Global-Context-0.003:	347	0	0	0
+                                                                          Class-Accessor-Class-0.503:	347	0	0	0
                                                                Data-InputMonster-Util-Catalyst-0.005:	349	0	0	0
                                                                     Email-MIME-Kit-Renderer-TT-1.001:	349	0	0	0
                                                                              Data-InputMonster-0.010:	351	0	0	0
@@ -163,17 +163,17 @@
                                                               Mail-DeliveryStatus-BounceParser-1.527:	422	11	0	23
                                                                                 Module-Starter-1.470:	427	1	2	1
                                                                                      Tree-File-0.112:	434	6	0	34
-                                                                                   Email-Valid-1.194:	435	0	0	0
+                                                                                   Email-Valid-1.194:	441	0	0	0
                                                              Module-Starter-Plugin-SimpleStore-0.144:	444	0	0	0
                                                                                    Color-Scheme-1.06:	451	0	0	0
                                                                               delicious-backup-0.013:	467	0	1	72
                                                                              Package-Generator-1.106:	475	1	0	0
                                                                             Email-MIME-Creator-1.456:	476	23	0	0
                                                            Pod-Elemental-Transfomer-VimHTML-0.093581:	480	0	0	0
-                                                                           Email-MIME-Modifier-1.444:	488	0	0	0
                                                                        Mixin-ExtraFields-Param-0.021:	488	0	0	0
-                                                                              Pod-Elemental-0.103001:	490	0	0	0
-                                                                                    Dist-Zilla-5.019:	494	11	2	0
+                                                                           Email-MIME-Modifier-1.444:	488	0	0	0
+                                                                              Pod-Elemental-0.103001:	491	0	0	0
+                                                                                    Dist-Zilla-5.019:	497	11	2	0
                                                                              Bryar-Config-YAML-0.103:	498	0	0	5
                                                                                        Try-Tiny-0.07:	499	131	0	3
                                                                                Class-DBI-MSSQL-0.122:	518	2	0	2
@@ -182,7 +182,7 @@
                                                               Email-Sender-Transport-SQLite-0.092002:	537	0	0	0
                                                                                 JSON-CPAN-Meta-7.001:	546	0	0	1
                                                                                   Email-Folder-0.858:	547	0	0	0
-                                                                           HTML-Widget-Factory-0.201:	549	0	0	0
+                                                                           HTML-Widget-Factory-0.201:	551	0	0	0
                                                              Class-DBI-Relationship-HasVariant-0.020:	551	1	0	1
                                                                           Parse-GutenbergRoget-0.021:	560	0	0	1
                                                                               Path-Resolver-3.100454:	561	0	0	0
@@ -195,11 +195,11 @@
                                                          Dist-Zilla-Plugin-CheckPrereqsIndexed-0.012:	606	0	4	0
                                                                      Module-Install-ExtraTests-0.008:	606	0	0	0
                                                                                      Date-Span-1.127:	611	0	0	0
-                                                                         App-Cmd-Plugin-Prompt-1.005:	634	0	0	0
+                                                                         App-Cmd-Plugin-Prompt-1.005:	635	0	0	0
                                                                      Module-Starter-Plugin-TT2-0.125:	638	1	1	2
                                                                            WebService-RTMAgent-0.600:	639	12	0	0
                                                                                       Querylet-0.401:	640	0	0	0
-                                                                               Email-MessageID-1.405:	641	0	0	0
+                                                                               Email-MessageID-1.405:	644	0	0	0
                                                                      Test-Reporter-HTTPGateway-0.001:	645	1	1	1
                                                                               Color-Palette-0.100003:	649	0	0	0
                                                                         Mail-Convert-Mbox-ToEml-0.06:	650	0	2	2
@@ -216,16 +216,16 @@
                                                                                 HTTP-Throwable-0.018:	811	0	0	0
                                                                                Return-Value-1.666004:	820	0	0	0
                                                                                     Email-Send-2.199:	858	3	0	0
-                                                                                  Test-Routine-0.018:	930	23	0	0
-                                                                                 Email-Address-1.903:	947	0	0	0
+                                                                                  Test-Routine-0.018:	931	23	0	0
+                                                                                 Email-Address-1.903:	948	0	0	0
                                                                                Email-Sender-1.300011:	948	19	0	0
                                                                           Mixin-ExtraFields-0.140002:	962	0	0	0
                                                                               CPAN-Uploader-0.103007:	967	0	0	0
-                                                                                  Throwable-0.200011:	998	2	0	0
+                                                                                  Throwable-0.200011:	999	2	0	0
                                                                                       IPC-Run3-0.048:	1015	0	0	0
                                                                    Pod-Elemental-PerlMunger-0.200002:	1016	0	0	0
-                                                                                    Email-MIME-1.926:	1038	0	0	0
-                                                                                    Config-INI-0.024:	1057	0	0	0
+                                                                                    Email-MIME-1.926:	1039	0	0	0
+                                                                                    Config-INI-0.024:	1058	0	0	0
                                                                               Email-FolderType-0.814:	1082	0	0	0
                                                                                   Module-Faker-0.016:	1086	11	0	2
                                                                            Software-License-0.103010:	1099	2	0	0
@@ -235,9 +235,9 @@
                                                                           Email-Simple-Creator-1.424:	1234	0	3	1
                                                                                   Net-Delicious-1.14:	1244	0	0	8
                                                                                  File-CheckTree-4.42:	1256	0	0	0
-                                                                                  Email-Simple-2.203:	1264	1	0	0
+                                                                                  Email-Simple-2.203:	1265	1	0	0
                                                                                      Time-Piece-1.27:	1277	4	0	0
-                                                                                Mixin-Linewise-0.106:	1317	0	0	0
+                                                                                Mixin-Linewise-0.106:	1318	0	0	0
                                                                                  Config-MVP-2.200007:	1320	1	0	0
                                                                                 Test-Simple-1.001002:	1327	6	0	1
                                                                                Data-Section-0.200006:	1335	0	0	0
@@ -246,14 +246,14 @@
                                                              Pod-Elemental-Transformer-List-0.102000:	1372	1	0	2
                                                                                  IO-TieCombine-1.004:	1376	0	0	0
                                                                                     Pod-Weaver-4.006:	1393	0	0	1
-                                                                       Getopt-Long-Descriptive-0.097:	1394	0	0	1
+                                                                       Getopt-Long-Descriptive-0.097:	1396	0	0	1
                                                                                      Test-Class-0.41:	1428	13	1	0
                                                                                    Text-Soundex-3.04:	1446	0	0	3
                                                                                          B-Lint-1.17:	1447	7	0	2
                                                                                      MIME-Lite-3.030:	1467	0	0	0
                                                                               Log-Dispatchouli-2.009:	1473	0	0	0
-                                                                                Email-Abstract-3.007:	1474	0	0	0
-                                                                            Perl-PrereqScanner-1.019:	1519	0	0	0
+                                                                                Email-Abstract-3.007:	1475	0	0	0
+                                                                            Perl-PrereqScanner-1.019:	1520	0	0	0
                                                                             Log-Dispatch-Array-1.003:	1586	0	0	0
                                                                         Test-MinimumVersion-0.101081:	1642	0	6	0
                                                                       Pod-Coverage-TrustPod-0.100003:	1666	0	0	2
@@ -266,7 +266,7 @@
                                                                Dist-Zilla-Plugin-TaskWeaver-0.101626:	1873	0	0	0
                                                                                Pod-Eventual-0.094001:	1887	39	0	1
                                                                                   Moose-Autobox-0.15:	2002	1	0	1
-                                                                                  Data-OptList-0.109:	2018	0	0	3
+                                                                                  Data-OptList-0.109:	2019	0	0	3
                                                                     Sub-Exporter-ForMethods-0.100051:	2109	1	0	0
                                                                              Role-Identifiable-0.007:	2121	1	0	0
                                                                                Role-HasMessage-0.006:	2157	0	0	1
@@ -274,14 +274,14 @@
                                                                              String-Flogger-1.101244:	2169	2	0	0
                                                                      Sub-Exporter-GlobExporter-0.004:	2171	2	0	0
                                                                         Email-MIME-ContentType-1.017:	2198	1	0	1
-                                                                                     Test-Deep-0.112:	2207	0	0	3
+                                                                                     Test-Deep-0.112:	2208	0	0	3
                                                                           String-RewritePrefix-0.007:	2255	1	0	0
                                                                               MooseX-OneArgNew-0.004:	2279	0	0	0
                                                                              MooseX-SetOnce-0.200002:	2280	0	0	1
-                                                                                  Sub-Exporter-0.987:	2508	0	0	0
-                                                                                   Sub-Install-0.927:	2528	2	0	0
-                                                                             Email-Date-Format-1.004:	2604	1	0	0
+                                                                                  Sub-Exporter-0.987:	2509	0	0	0
+                                                                                   Sub-Install-0.927:	2529	2	0	0
+                                                                             Email-Date-Format-1.004:	2605	1	0	0
                                                                       Config-MVP-Reader-INI-2.101462:	2782	22	0	1
                                                                                      Data-UUID-1.219:	2974	16	0	2
-                                                                                    Test-Fatal-0.013:	3010	4	0	0
+                                                                                    Test-Fatal-0.013:	3011	4	0	0
                                                                     Module-Install-AuthorTests-0.002:	6532	6	0	4
