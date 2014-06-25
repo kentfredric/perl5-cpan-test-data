@@ -1,11 +1,11 @@
-                                                                           Test-CleanNamespaces-0.13:	31	0	0	0
+                                                                           Test-CleanNamespaces-0.13:	34	0	0	0
                                                                     Plack-App-BeanstalkConsole-0.007:	90	4	0	169
                                                                         Acme-LookOfDisapproval-0.006:	111	0	177	0
                                                       Dist-Zilla-Plugin-EnsureNewVersion-0.001-TRIAL:	111	0	0	0
                                                           Dist-Zilla-PluginBundle-Author-ETHER-0.065:	115	0	1	0
-                                                                                      Any-Moose-0.24:	119	0	0	0
+                                                                                      Any-Moose-0.24:	122	0	0	0
                                                                  Dist-Zilla-Plugin-Conflicts-0.13001:	132	0	0	0
-                                                      Dist-Zilla-Plugin-EnsurePrereqsInstalled-0.004:	143	1	0	0
+                                                      Dist-Zilla-Plugin-EnsurePrereqsInstalled-0.004:	146	1	0	0
                                                             Test-Mock-LWP-UserAgent-ButAwesome-0.003:	170	0	0	0
                                                                   Dist-Zilla-Plugin-NoTabsTests-0.02:	173	0	0	0
                                                                                      Tiny-Tiny-0.002:	215	1	1	0
@@ -18,7 +18,7 @@
                                                       Dist-Zilla-Plugin-Test-PAUSE-Permissions-0.001:	260	1	0	0
                                                              Dist-Zilla-Plugin-Test-NewVersion-0.009:	265	1	0	0
                                                              Dist-Zilla-Plugin-OptionalFeature-0.014:	266	0	4	0
-                                                                                 Test-Warnings-0.016:	270	0	0	0
+                                                                                 Test-Warnings-0.016:	273	0	0	0
                                                                                         MooseY-0.001:	274	1	0	0
                                                           Dist-Zilla-Plugin-MungeFile-WithData-0.006:	275	0	12	0
                                                                       Dist-Zilla-Plugin-Breaks-0.002:	275	2	0	0
@@ -70,12 +70,12 @@
                                                                                 Task-Kensho-OOP-0.36:	364	0	0	0
                                                                                 MooseX-Runnable-0.07:	367	0	0	0
                                                                  Dist-Zilla-Plugin-CheckIssues-0.002:	403	0	0	0
-                                                                            namespace-autoclean-0.19:	407	0	0	0
+                                                                            namespace-autoclean-0.19:	409	0	0	0
                                                                               Catalyst-Manual-5.9007:	437	0	0	0
                                                                             Module-Metadata-1.000024:	492	0	0	0
                                                                                       YAML-Tiny-1.63:	492	0	0	0
                                                                Dist-Zilla-Plugin-PromptIfStale-0.023:	493	0	2	0
-                                                                                       JSON-Any-1.34:	514	0	0	0
+                                                                                       JSON-Any-1.34:	515	0	0	0
                                                                              Pod-Coverage-Moose-0.05:	540	0	0	0
                                                                 Dist-Zilla-Plugin-VerifyPhases-0.003:	561	0	0	1
                                                                     Dist-Zilla-Plugin-Keywords-0.005:	578	0	0	0
@@ -111,8 +111,8 @@
                                                                           MooseX-ConfigFromFile-0.13:	1284	2	0	3
                                                                           MooseX-Types-DateTime-0.10:	1297	1	0	0
                                                                        MooseX-Method-Signatures-0.47:	1308	4	1	1
-                                                                            MooseX-Types-Email-0.006:	1324	0	0	0
-                                                       Dist-Zilla-Role-File-ChangeNotification-0.003:	1362	0	0	0
+                                                                            MooseX-Types-Email-0.006:	1326	0	0	0
+                                                       Dist-Zilla-Role-File-ChangeNotification-0.003:	1363	0	0	0
                                                                         MooseX-Types-Path-Tiny-0.010:	1390	1	0	0
                                                                          Class-Method-Modifiers-2.10:	1401	1	0	0
                                                                 Dist-Zilla-Plugin-Test-Kwalitee-2.07:	1403	2	0	1
@@ -128,7 +128,7 @@
                                                                     MooseX-Types-LoadableClass-0.012:	1807	0	0	0
                                                                              B-Hooks-EndOfScope-0.13:	1956	0	5	0
                                                                             Package-Variant-1.001004:	2090	0	0	1
-                                                                           MooseX-UndefTolerant-0.19:	2120	5	5	0
+                                                                           MooseX-UndefTolerant-0.19:	2122	5	5	0
                                                                                    Test-TempDir-0.08:	2164	1	0	0
                                                                                    Safe-Isa-1.000004:	2339	0	0	0
                                                                                   WWW-Mechanize-1.73:	2511	27	6	0
