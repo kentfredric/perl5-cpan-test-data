@@ -8,10 +8,10 @@
                                                                          Task-Email-PEP-All-8100.021:	16	0	1	6
                                                                      Task-Email-PEP-NoStore-8100.021:	17	0	1	7
                                                                                 MooseX-Worm-0.100470:	19	0	0	0
-                                                                      Config-MVP-Reader-INI-2.101463:	20	0	0	0
                                                                             ExtUtils-FakeMaker-0.002:	20	1	2	0
                                                                              Config-INI-Reader-0.004:	25	0	0	0
                                                                         Task-Deprecations-5_12-1.001:	35	0	0	0
+                                                                      Config-MVP-Reader-INI-2.101463:	37	0	0	0
                                                                                   Metabase-Web-0.001:	37	128	0	2
                                                                              Data-Rx-Type-Perl-0.001:	38	23	0	0
                                                                 Mail-SpamAssassin-SimpleClient-0.102:	42	0	0	0
@@ -22,7 +22,7 @@
                                                                      Querylet-Output-Excel-OLE-0.143:	83	0	0	0
                                                                               Catalyst-Manual-5.7014:	98	1	0	1
                                                                           Games-Nintendo-Mario-0.208:	114	0	32	0
-                                                                                Process-Status-0.005:	138	0	0	0
+                                                                                Process-Status-0.005:	140	0	0	0
                                                                        Task-BeLike-RJBS-20131116.000:	147	0	9	0
                                                                                       ZMachine-0.004:	163	0	8	0
                                                                                    Router-Dumb-0.005:	166	0	15	0
@@ -38,7 +38,7 @@
                                                                          Config-INI-MVP-Reader-0.018:	215	0	1	0
                                                                              Data-Rx-Type-PCRE-0.005:	219	0	2	0
                                                          Rubric-Entry-Formatter-KwikiFormatish-0.552:	220	0	0	0
-                                                                                   Sub-Install-0.928:	225	0	0	0
+                                                                                   Sub-Install-0.928:	227	0	0	0
                                                                                 Git-Fingerd-2.093521:	230	0	0	0
                                                                                   Email-Delete-2.002:	242	0	0	0
                                                           Email-MIME-Kit-Assembler-TextifyHTML-1.002:	248	0	0	0
@@ -173,7 +173,7 @@
                                                            Pod-Elemental-Transfomer-VimHTML-0.093581:	480	0	0	0
                                                                              Package-Generator-1.106:	485	1	0	0
                                                                            Email-MIME-Modifier-1.444:	488	0	0	0
-                                                                                 Email-Address-1.905:	493	0	0	0
+                                                                                 Email-Address-1.905:	495	0	0	0
                                                                        Mixin-ExtraFields-Param-0.021:	496	0	0	0
                                                                              Bryar-Config-YAML-0.103:	499	0	0	5
                                                                                        Try-Tiny-0.07:	499	132	0	3
@@ -194,14 +194,14 @@
                                                                                Role-HasPayload-0.006:	594	0	0	0
                                                                      Module-Install-ExtraTests-0.008:	615	0	0	0
                                                                                      Date-Span-1.127:	619	0	0	0
-                                                                         App-Cmd-Plugin-Prompt-1.005:	636	0	0	0
+                                                                         App-Cmd-Plugin-Prompt-1.005:	637	0	0	0
                                                                            WebService-RTMAgent-0.600:	639	12	0	0
                                                                                       Querylet-0.401:	640	0	0	0
                                                                      Module-Starter-Plugin-TT2-0.125:	640	1	1	2
                                                                      Test-Reporter-HTTPGateway-0.001:	647	1	1	1
                                                                         Mail-Convert-Mbox-ToEml-0.06:	652	0	2	2
                                                                               Color-Palette-0.100003:	657	0	0	0
-                                                                              Pod-Elemental-0.103001:	676	0	0	0
+                                                                              Pod-Elemental-0.103001:	677	0	0	0
                                                                                     Dist-Zilla-5.019:	687	12	2	0
                                                                                       Metabase-1.003:	688	24	0	0
                                                                                Number-Tolerant-1.703:	726	4	0	0
@@ -284,4 +284,4 @@
                                                                              Email-Date-Format-1.004:	2684	1	0	0
                                                                                      Data-UUID-1.219:	3047	17	0	2
                                                                                     Test-Fatal-0.013:	3094	4	0	0
-                                                                    Module-Install-AuthorTests-0.002:	6595	6	0	4
+                                                                    Module-Install-AuthorTests-0.002:	6596	6	0	4
