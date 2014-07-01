@@ -1,7 +1,6 @@
                                                                               Email-Store-HTML-0.301:	0	0	0	5
                                                                               Mail-Audit-Razor-1.802:	0	1	0	3
                                                                                    Email-Store-0.257:	2	0	0	1
-                                                                      Config-MVP-Reader-INI-2.101463:	3	0	0	0
                                                                                    Games-Die-0.99_01:	4	0	0	0
                                                                            Email-Simple-Headers-1.02:	9	13	0	0
                                                                                     App-Config-0.001:	10	0	0	0
@@ -9,6 +8,7 @@
                                                                          Task-Email-PEP-All-8100.021:	16	0	1	6
                                                                      Task-Email-PEP-NoStore-8100.021:	17	0	1	7
                                                                                 MooseX-Worm-0.100470:	19	0	0	0
+                                                                      Config-MVP-Reader-INI-2.101463:	20	0	0	0
                                                                             ExtUtils-FakeMaker-0.002:	20	1	2	0
                                                                              Config-INI-Reader-0.004:	25	0	0	0
                                                                         Task-Deprecations-5_12-1.001:	35	0	0	0
@@ -22,7 +22,7 @@
                                                                      Querylet-Output-Excel-OLE-0.143:	83	0	0	0
                                                                               Catalyst-Manual-5.7014:	98	1	0	1
                                                                           Games-Nintendo-Mario-0.208:	114	0	32	0
-                                                                                Process-Status-0.005:	136	0	0	0
+                                                                                Process-Status-0.005:	138	0	0	0
                                                                        Task-BeLike-RJBS-20131116.000:	147	0	9	0
                                                                                       ZMachine-0.004:	163	0	8	0
                                                                                    Router-Dumb-0.005:	166	0	15	0
@@ -38,7 +38,7 @@
                                                                          Config-INI-MVP-Reader-0.018:	215	0	1	0
                                                                              Data-Rx-Type-PCRE-0.005:	219	0	2	0
                                                          Rubric-Entry-Formatter-KwikiFormatish-0.552:	220	0	0	0
-                                                                                   Sub-Install-0.928:	223	0	0	0
+                                                                                   Sub-Install-0.928:	225	0	0	0
                                                                                 Git-Fingerd-2.093521:	230	0	0	0
                                                                                   Email-Delete-2.002:	242	0	0	0
                                                           Email-MIME-Kit-Assembler-TextifyHTML-1.002:	248	0	0	0
@@ -202,7 +202,7 @@
                                                                         Mail-Convert-Mbox-ToEml-0.06:	652	0	2	2
                                                                               Color-Palette-0.100003:	657	0	0	0
                                                                               Pod-Elemental-0.103001:	676	0	0	0
-                                                                                    Dist-Zilla-5.019:	686	12	2	0
+                                                                                    Dist-Zilla-5.019:	687	12	2	0
                                                                                       Metabase-1.003:	688	24	0	0
                                                                                Number-Tolerant-1.703:	726	4	0	0
                                                                                    Email-Valid-1.194:	728	1	0	0
@@ -218,22 +218,22 @@
                                                                                   CPAN-Mini-1.111015:	837	0	0	0
                                                                                Email-MessageID-1.405:	849	0	0	0
                                                                                     Email-Send-2.199:	869	3	0	0
-                                                                                HTTP-Throwable-0.018:	919	0	0	0
+                                                                                HTTP-Throwable-0.018:	920	0	0	0
                                                                           Mixin-ExtraFields-0.140002:	970	0	0	0
                                                                                   Test-Routine-0.018:	983	23	0	0
                                                                                Email-Sender-1.300011:	985	19	0	0
                                                                               Email-FolderType-0.814:	1091	0	0	0
                                                                                   Module-Faker-0.016:	1095	11	0	2
-                                                                              CPAN-Uploader-0.103007:	1115	0	0	0
+                                                                              CPAN-Uploader-0.103007:	1116	0	0	0
                                                                                       IPC-Run3-0.048:	1118	0	0	0
                                                                    Pod-Elemental-PerlMunger-0.200002:	1118	0	0	0
                                                                                     Email-MIME-1.926:	1150	0	0	0
-                                                                                  Throwable-0.200011:	1162	2	0	0
+                                                                                  Throwable-0.200011:	1163	2	0	0
                                                            Pod-Elemental-Transfomer-PPIHTML-0.093580:	1217	2	41	0
-                                                                                    Config-INI-0.024:	1226	0	0	0
+                                                                                    Config-INI-0.024:	1227	0	0	0
                                                                             String-Truncate-1.100602:	1232	0	0	0
                                                                           Email-Simple-Creator-1.424:	1234	0	3	1
-                                                                           Software-License-0.103010:	1241	2	0	0
+                                                                           Software-License-0.103010:	1242	2	0	0
                                                                                   Net-Delicious-1.14:	1255	0	0	8
                                                                                  File-CheckTree-4.42:	1270	0	0	0
                                                                                      Time-Piece-1.27:	1316	5	0	0
@@ -284,4 +284,4 @@
                                                                              Email-Date-Format-1.004:	2684	1	0	0
                                                                                      Data-UUID-1.219:	3047	17	0	2
                                                                                     Test-Fatal-0.013:	3094	4	0	0
-                                                                    Module-Install-AuthorTests-0.002:	6594	6	0	4
+                                                                    Module-Install-AuthorTests-0.002:	6595	6	0	4
