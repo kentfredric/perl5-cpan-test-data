@@ -8,10 +8,10 @@
                                                   DBIx-Class-InflateColumn-Serializer-JSYNC-0.001000:	38	0	0	0
                                                                      Tie-IxHash-ButMoreFun-1.0921204:	45	12	0	0
                                                                IO-Async-XMLStream-SAXReader-0.001000:	51	0	0	0
-                                                      Dist-Zilla-PluginBundle-Author-KENTNL-2.016001:	75	0	0	0
                                                                 Dist-Zilla-PluginBundle-KENTNL-1.0.1:	81	0	0	0
-                                                                    Color-Swatch-ASE-Reader-0.001002:	82	0	3	0
-                                                                    Color-Swatch-ASE-Writer-0.001001:	83	0	3	0
+                                                      Dist-Zilla-PluginBundle-Author-KENTNL-2.016001:	82	0	0	0
+                                                                    Color-Swatch-ASE-Reader-0.001002:	100	0	3	0
+                                                                    Color-Swatch-ASE-Writer-0.001001:	101	0	3	0
                                                                               Set-Associate-0.003000:	106	0	30	0
                                                               Search-GIN-Extract-ClassMap-0.01060817:	127	0	0	0
                                                                                      App-DH-0.001002:	129	2	0	0
@@ -70,9 +70,9 @@
                                                             Dist-Zilla-Plugin-LogContextual-0.001000:	282	0	0	0
                                                               Dist-Zilla-App-Command-critic-0.001001:	283	0	0	0
                                       Dist-Zilla-Plugin-Author-KENTNL-Prereqs-Latest-Selective-0.1.2:	292	0	0	0
-                                                                     CPAN-Meta-Prereqs-Diff-0.001000:	296	0	0	0
                                                            Dist-Zilla-App-Command-lsplugins-0.001000:	296	0	0	0
                                                                     Net-TribalWarsMap-API-HTTP-0.1.1:	297	0	4	0
+                                                                     CPAN-Meta-Prereqs-Diff-0.001000:	298	0	0	0
                                                                       CPAN-Changes-Markdown-1.000000:	299	0	0	0
                                                             Dist-Zilla-App-Command-dumpwith-0.001000:	305	0	0	0
                                                         Paludis-ResumeState-Serialization-0.01000410:	305	0	4	0
@@ -82,7 +82,7 @@
                                                                           Gentoo-Overlay-Group-0.2.0:	314	0	3	0
                                                                               lib-byversion-0.001001:	315	0	0	0
                                                                    Dist-Zilla-Util-Git-Refs-0.002000:	319	0	0	0
-                                                                             HTTP-Tiny-Mech-1.000000:	319	0	0	0
+                                                                             HTTP-Tiny-Mech-1.000000:	321	0	0	0
                                                    Catalyst-Authentication-Credential-RPX-0.10060100:	325	0	0	0
                                                                               Data-Handle-0.02001003:	325	0	0	0
                                                                                     Net-API-RPX-0.04:	330	0	0	0
@@ -95,38 +95,38 @@
                                                                                 Gentoo-Overlay-1.0.5:	374	1	0	0
                                                                              Spark-Form-0.2103-TRIAL:	382	1	0	0
                                                                              Net-Travis-API-0.001001:	392	2	4	0
-                                                                 Dist-Zilla-Util-CurrentCmd-0.001000:	412	0	0	0
+                                                                 Dist-Zilla-Util-CurrentCmd-0.001000:	413	0	0	0
                                                                             IPC-Run-Fused-0.04000100:	423	5	0	0
                                                                 Dist-Zilla-Util-Git-Wrapper-0.003000:	461	6	0	0
                                                                     Test-StructuredObject-0.01000010:	479	0	0	0
-                                                 Dist-Zilla-Plugin-RewriteVersion-Sanitized-0.001000:	511	0	0	0
-                                                               File-ShareDir-ProjectDistDir-1.000002:	519	0	0	0
+                                                 Dist-Zilla-Plugin-RewriteVersion-Sanitized-0.001000:	515	0	0	0
+                                                               File-ShareDir-ProjectDistDir-1.000002:	522	0	0	0
                                                                         Gentoo-PerlMod-Version-0.6.0:	525	0	4	0
-                                                       Dist-Zilla-Plugin-MetaData-BuiltWith-1.000000:	533	0	0	0
-                                                                           MooseX-Has-Sugar-1.000001:	553	0	0	0
+                                                       Dist-Zilla-Plugin-MetaData-BuiltWith-1.000000:	537	0	0	0
+                                                                           MooseX-Has-Sugar-1.000001:	557	0	0	0
                                                                              Data-Couplet-0.02004314:	563	0	1	0
-                                                                         Test-File-ShareDir-1.000001:	577	1	0	0
                                                             Regexp-Grammars-Common-String-0.01000002:	578	0	12	0
+                                                                         Test-File-ShareDir-1.000001:	582	1	0	0
                                                              Dist-Zilla-UtilRole-MaybeZilla-0.001000:	597	1	0	0
                                                               Gentoo-PerlMod-Version-FixEbuild-0.1.1:	637	0	0	0
                                                              Log-Contextual-LogDispatchouli-0.001000:	637	0	0	0
-                                                   Dist-Zilla-Plugin-Prereqs-MatchInstalled-1.000000:	660	0	0	0
+                                                   Dist-Zilla-Plugin-Prereqs-MatchInstalled-1.000000:	664	0	0	0
                                                                    Gentoo-MetaEbuild-Spec-Base-0.1.4:	685	2	8	0
-                                                     Dist-Zilla-Plugin-Test-Compile-PerFile-0.002000:	689	0	0	0
                                                                      Dist-Zilla-Util-RoleDB-0.001000:	691	0	0	0
-                                                               Dist-Zilla-Util-EmulatePhase-1.000000:	702	2	0	0
-                                                          Dist-Zilla-Plugin-Git-NextRelease-0.002010:	837	1	0	0
-                                         Dist-Zilla-Plugin-Prereqs-Recommend-MatchInstalled-0.001000:	839	0	2	0
-                                                                  Dist-Zilla-Role-Bootstrap-1.000001:	843	0	0	0
-                                                            Dist-Zilla-Plugin-Bootstrap-lib-1.000001:	855	1	0	0
-                                                                                  Path-ScanINC-0.020:	884	0	0	0
+                                                     Dist-Zilla-Plugin-Test-Compile-PerFile-0.002000:	693	0	0	0
+                                                               Dist-Zilla-Util-EmulatePhase-1.000000:	706	2	0	0
+                                                          Dist-Zilla-Plugin-Git-NextRelease-0.002010:	838	1	0	0
+                                         Dist-Zilla-Plugin-Prereqs-Recommend-MatchInstalled-0.001000:	840	0	2	0
+                                                                  Dist-Zilla-Role-Bootstrap-1.000001:	847	0	0	0
+                                                            Dist-Zilla-Plugin-Bootstrap-lib-1.000001:	859	1	0	0
+                                                                                  Path-ScanINC-0.020:	888	0	0	0
                                                                 Test-CPAN-Changes-ReallyStrict-0.2.0:	888	0	0	0
-                                                                           Git-Wrapper-Plus-0.004010:	893	0	0	0
-                                                                 Dist-Zilla-Role-BundleDeps-0.001001:	968	0	0	0
-                                                Dist-Zilla-Plugin-Git-NextVersion-Sanitized-0.001000:	1060	0	0	0
+                                                                           Git-Wrapper-Plus-0.004010:	894	0	0	0
+                                                                 Dist-Zilla-Role-BundleDeps-0.001001:	969	0	0	0
+                                                Dist-Zilla-Plugin-Git-NextVersion-Sanitized-0.001000:	1061	0	0	0
                                                            Dist-Zilla-Role-Version-Sanitize-0.001002:	1095	1	0	0
                                                      Dist-Zilla-Plugin-MetaProvides-Package-2.000001:	1146	1	30	0
                                                                 Dist-Zilla-Util-Test-KENTNL-1.000000:	1151	0	0	0
                                                              Dist-Zilla-Plugin-MetaProvides-2.000000:	1153	0	0	0
-                                                                                  Path-FindDev-0.5.0:	1476	0	0	0
-                                                                                 Path-IsDev-1.001000:	1508	1	0	1
+                                                                                  Path-FindDev-0.5.0:	1477	0	0	0
+                                                                                 Path-IsDev-1.001000:	1509	1	0	1
