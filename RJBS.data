@@ -9,14 +9,14 @@
                                                                      Task-Email-PEP-NoStore-8100.021:	17	0	1	7
                                                                                 MooseX-Worm-0.100470:	19	0	0	0
                                                                             ExtUtils-FakeMaker-0.002:	20	1	2	0
-                                                                              Config-Singleton-0.005:	23	0	0	0
+                                                                              Config-Singleton-0.005:	24	0	0	0
                                                                              Config-INI-Reader-0.004:	25	0	0	0
                                                                         Task-Deprecations-5_12-1.001:	35	0	0	0
-                                                                                 Config-MVP-2.200008:	37	0	0	0
                                                                                   Metabase-Web-0.001:	37	128	0	2
-                                                                            Perl-PrereqScanner-1.020:	38	0	0	0
                                                                              Data-Rx-Type-Perl-0.001:	38	23	0	0
                                                                 Mail-SpamAssassin-SimpleClient-0.102:	42	0	0	0
+                                                                            Perl-PrereqScanner-1.020:	42	0	0	0
+                                                                                 Config-MVP-2.200008:	43	0	0	0
                                                                                MooseX-Singleton-0.05:	51	0	1	0
                                                                               Test-Exception-0.28_01:	52	0	0	0
                                                                                   Bundle-Email-0.044:	60	0	0	0
@@ -24,7 +24,7 @@
                                                                      Querylet-Output-Excel-OLE-0.143:	83	0	0	0
                                                                               Catalyst-Manual-5.7014:	98	1	0	1
                                                                           Games-Nintendo-Mario-0.208:	114	0	32	0
-                                                                      Config-MVP-Reader-INI-2.101463:	127	0	0	0
+                                                                      Config-MVP-Reader-INI-2.101463:	130	0	0	0
                                                                        Task-BeLike-RJBS-20131116.000:	147	0	9	0
                                                                                       ZMachine-0.004:	163	0	8	0
                                                                                    Router-Dumb-0.005:	166	0	15	0
@@ -119,12 +119,12 @@
                                                                              Math-TotalBuilder-1.102:	317	0	0	0
                                                                                       Amce-CNA-0.066:	318	0	0	2
                                                                                  Kwiki-IRCMode-0.302:	318	0	1	2
-                                                                                   Sub-Install-0.928:	321	1	0	0
                                                                        Sub-Exporter-Lexical-0.092292:	322	0	8	0
                                                                                       URI-cpan-1.005:	322	0	0	0
                                                                             Exception-Reporter-0.012:	324	0	0	0
                                                                          File-LinkTree-Builder-0.006:	324	22	0	0
                                                                 Email-MIME-Kit-Validator-Rx-0.200001:	325	0	0	0
+                                                                                   Sub-Install-0.928:	325	1	0	0
                                                                          Task-Deprecations5_12-1.002:	326	0	0	0
                                                           Email-MIME-Kit-Assembler-Markdown-0.100001:	328	0	0	0
                                                                        Email-Simple-FromHandle-0.054:	331	0	0	0
@@ -203,11 +203,11 @@
                                                                      Test-Reporter-HTTPGateway-0.001:	647	1	1	1
                                                                         Mail-Convert-Mbox-ToEml-0.06:	652	0	2	2
                                                                               Color-Palette-0.100003:	657	0	0	0
-                                                                              Pod-Elemental-0.103001:	688	0	0	0
                                                                                       Metabase-1.003:	688	24	0	0
+                                                                              Pod-Elemental-0.103001:	689	0	0	0
                                                                                     Dist-Zilla-5.019:	699	12	2	0
                                                                                Number-Tolerant-1.703:	726	4	0	0
-                                                                                   Email-Valid-1.194:	736	1	0	0
+                                                                                   Email-Valid-1.194:	737	1	0	0
                                                                            Email-LocalDelivery-1.200:	739	0	0	0
                                                                           Email-FolderType-Net-1.043:	743	0	0	0
                                                          Dist-Zilla-Plugin-CheckPrereqsIndexed-0.012:	760	0	6	0
@@ -239,7 +239,7 @@
                                                                                   Net-Delicious-1.14:	1255	0	0	8
                                                                                  File-CheckTree-4.42:	1270	0	0	0
                                                           Pod-Elemental-Transformer-WikiDoc-0.093003:	1322	5	0	0
-                                                                                     Time-Piece-1.27:	1325	5	0	0
+                                                                                     Time-Piece-1.27:	1326	5	0	0
                                                                                 Test-Simple-1.001002:	1327	6	0	1
                                                                                   Email-Simple-2.203:	1364	1	0	0
                                                                           MooseX-Types-Perl-0.101343:	1416	1	0	0
