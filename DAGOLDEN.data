@@ -14,7 +14,7 @@
                                                                  Dancer-SessionFactory-MongoDB-0.001:	15	0	1	0
                                                                Dancer-SessionFactory-Memcached-0.001:	17	0	1	0
                                                                                         OSType-0.004:	41	0	0	0
-                                                                                  Hash-Ordered-0.002:	42	0	0	0
+                                                                                  Hash-Ordered-0.002:	45	0	0	0
                                                                           Task-BeLike-DAGOLDEN-0.009:	68	0	0	0
                                                                                      Objectify-0.001:	73	0	0	0
                                                                                      Perl-Dist-0.0.5:	87	0	0	0
@@ -25,14 +25,14 @@
                                                                      Dancer2-Session-Memcached-0.003:	115	0	0	0
                                                                       CPAN-Testers-Metabase-1.999002:	132	0	0	0
                                                                   Dancer2-Plugin-Queue-MongoDB-0.003:	149	0	0	0
-                                                                            MooseX-Role-Logger-0.003:	149	0	0	0
+                                                                            MooseX-Role-Logger-0.003:	150	0	0	0
                                                                        Dancer2-Plugin-Deferred-0.005:	156	31	2	0
                                                                         Dancer2-Session-Sereal-0.001:	163	66	0	0
                                                                    Dancer-Plugin-Queue-MongoDB-0.003:	166	0	0	0
                                                                           Dancer2-Session-JSON-0.001:	169	0	17	0
                                                                           Dancer2-Plugin-Queue-0.004:	171	25	1	0
                                                                           Metabase-Backend-SQL-1.000:	173	134	3	0
-                                                                                    File-pushd-1.009:	175	0	0	0
+                                                                                    File-pushd-1.009:	180	0	0	0
                                                                  Dancer2-Plugin-Syntax-GetPost-0.002:	203	0	0	0
                                                                       Dancer2-Plugin-Auth-Tiny-0.003:	204	51	0	0
                                                                        Dancer2-Session-MongoDB-0.002:	205	0	0	0
@@ -74,8 +74,8 @@
                                                                         Dancer-Plugin-Deferred-0.003:	334	25	6	0
                                                                              CPAN-Common-Index-0.004:	336	2	1	0
                                                                                       failures-0.003:	339	0	0	0
-                                                                                     Path-Tiny-0.055:	346	0	1	0
                                                                           Dancer-Session-Cookie-0.22:	352	56	1	0
+                                                                                     Path-Tiny-0.055:	353	0	1	0
                                                                                   Test-DiagINC-0.004:	354	1	0	0
                                                                                        Meerkat-0.010:	361	1	8	0
                                                                                 CPAN-Mini-Devel-0.04:	362	0	0	0
@@ -102,7 +102,7 @@
                                                                                   HTTP-Tiny-UA-0.002:	523	0	1	0
                                                                            App-mymeta_requires-0.005:	549	0	6	0
                                                                          App-Ylastic-CostAgent-0.006:	550	1	22	1
-                                                                                  CPAN-Meta-2.141520:	559	0	7	0
+                                                                                  CPAN-Meta-2.141520:	560	0	7	0
                                                                         TAP-Harness-Restricted-0.002:	561	2	0	0
                                                                                 Devel-Autoflush-0.06:	594	0	0	0
                                                                                     superclass-0.003:	597	0	0	0
@@ -130,7 +130,7 @@
                                                                  Test-Reporter-Transport-Legacy-1.59:	893	0	0	0
                                                                                   CPAN-Visitor-0.003:	901	0	0	0
                                                                                   Data-UUID-MT-1.001:	903	24	0	0
-                                                                                      Test-API-0.005:	918	0	0	0
+                                                                                      Test-API-0.005:	919	0	0	0
                                                              Dist-Zilla-Plugin-CheckExtraTests-0.021:	920	89	0	0
                                                                               Parse-CPAN-Meta-1.4414:	927	0	13	0
                                                                                   Test-Reporter-1.60:	934	1	0	2
@@ -165,7 +165,7 @@
                                                                      CPAN-Testers-Common-Utils-0.002:	2541	0	1	0
                                                                         Metabase-Client-Simple-0.009:	2702	0	0	0
                                                           Dist-Zilla-Plugin-CheckMetaResources-0.001:	2728	0	0	1
-                                                                             Test-FailWarnings-0.008:	2776	0	15	3
+                                                                             Test-FailWarnings-0.008:	2777	0	15	3
                                                                                 IO-Prompt-Tiny-0.002:	3015	1	0	0
                                                                                     Pod-WikiDoc-0.20:	3145	1	0	1
                                                                                   Test-Filename-0.03:	3790	1	0	1
@@ -173,4 +173,4 @@
                                                            Test-Reporter-Transport-Metabase-1.999008:	3889	0	0	8
                                                                                    File-chdir-0.1008:	4174	11	0	6
                                                                         CPAN-Testers-Report-1.999001:	5347	1	0	6
-                                                                                    Sub-Uplevel-0.24:	5846	1	0	21
+                                                                                    Sub-Uplevel-0.24:	5847	1	0	21
