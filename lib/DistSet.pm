@@ -45,7 +45,7 @@ sub all_versions_by {
             $cmp = ( $a->$field() <=> $b->$field() );
             return $cmp unless $cmp == 0;
         }
-        return $cmp;
+        return $a->name cmp $b->name;
     };
     return ( my @list =  sort { $sorter->() } $self->all_versions );
 }
