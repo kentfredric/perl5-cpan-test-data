@@ -3,7 +3,7 @@
                                                                                 Sys-Mmap-Simple-0.14:	52	0	8	0
                                                                                          Const-0.002:	75	0	0	0
                                                                                Devel-OnDestruct-0.01:	75	1	6	2
-                                                                                      Linux-FD-0.011:	82	0	28	0
+                                                                                      Linux-FD-0.011:	83	0	28	0
                                                                                    Linux-Epoll-0.010:	87	0	41	0
                                                                                    Match-Smart-0.001:	99	0	10	0
                                                                                    Signal-More-0.004:	111	106	0	50
@@ -43,38 +43,38 @@
                                                                    Dist-Zilla-Plugin-BuildSelf-0.003:	374	0	0	0
                                                                                    PerlIO-text-0.007:	377	6	0	0
                                                              Dist-Zilla-Plugin-MinimumPerlFast-0.002:	399	0	0	0
-                                                                                 Module-Build-0.4206:	452	10	0	1
+                                                                                 Module-Build-0.4206:	455	10	0	1
                                                                                   Scalar-Andand-0.05:	469	1	0	1
-                                                                                  experimental-0.008:	504	0	4	0
+                                                                                  experimental-0.008:	507	0	5	0
                                                                                    Scope-OnExit-0.02:	530	1	0	4
                                                                                    Sys-Sendfile-0.12:	554	22	0	2
                                                                                SmartMatch-Sugar-0.05:	590	0	24	0
-                                                                                   Test-Harness-3.32:	591	0	0	0
+                                                                                   Test-Harness-3.32:	592	0	0	0
                                                                                      PerlIO-if-0.003:	616	27	1	0
                                                                                    Smart-Match-0.007:	623	1	32	9
                                                                                         Net-FSP-0.16:	630	1	0	1
-                                                                               ExtUtils-Config-0.008:	692	0	0	0
-                                                                             List-DoubleLinked-0.003:	712	0	0	0
-                                                                               CPAN-Meta-Check-0.009:	713	0	0	0
-                                                                                  Class-Private-0.05:	722	0	41	1
+                                                                               ExtUtils-Config-0.008:	698	0	0	0
+                                                                             List-DoubleLinked-0.003:	713	0	0	0
+                                                                               CPAN-Meta-Check-0.009:	719	0	0	0
+                                                                                  Class-Private-0.05:	723	0	41	1
                                                                                   Variable-Lazy-0.03:	723	3	0	2
                                                                                  Signal-Safety-0.002:	747	4	0	3
-                                                                            Variable-OnDestruct-0.03:	780	12	1	9
+                                                                            Variable-OnDestruct-0.03:	781	12	1	9
                                                               Dist-Zilla-Plugin-Test-CheckDeps-0.007:	793	0	0	1
-                                                                Dist-Zilla-Role-ModuleIncluder-0.004:	809	0	0	1
-                                                                                   Signal-Mask-0.007:	926	2	0	0
-                                                                                Thread-SigMask-0.004:	930	18	0	25
+                                                                Dist-Zilla-Role-ModuleIncluder-0.004:	811	0	0	1
+                                                                                   Signal-Mask-0.007:	928	2	0	0
+                                                                                Thread-SigMask-0.004:	932	19	0	25
                                                                                  PerlIO-Layers-0.011:	1119	13	0	0
                                                                            AnyEvent-Handle-UDP-0.043:	1261	0	0	0
-                                                             Dist-Zilla-Plugin-ModuleBuildTiny-0.006:	1296	2	0	0
+                                                             Dist-Zilla-Plugin-ModuleBuildTiny-0.006:	1297	2	0	0
                                                                    Sub-Exporter-Progressive-0.001008:	1303	0	0	4
                                                                                  Package-Rename-0.02:	1336	0	0	0
-                                                                             Module-Build-Tiny-0.036:	1484	58	2	0
-                                                                              ExtUtils-Helpers-0.022:	1741	4	0	0
-                                                                               File-Slurp-Tiny-0.003:	1989	0	0	0
-                                                                                       File-Map-0.61:	2050	48	1	5
-                                                                                Devel-FindPerl-0.012:	2120	11	0	1
-                                                                            PerlIO-utf8_strict-0.004:	2553	9	0	10
-                                                                         ExtUtils-InstallPaths-0.010:	2739	0	10	0
-                                                                                Test-CheckDeps-0.010:	2906	17	0	7
+                                                                             Module-Build-Tiny-0.036:	1488	58	2	0
+                                                                              ExtUtils-Helpers-0.022:	1744	4	0	0
+                                                                               File-Slurp-Tiny-0.003:	1991	0	0	0
+                                                                                       File-Map-0.61:	2051	48	1	5
+                                                                                Devel-FindPerl-0.012:	2121	11	0	1
+                                                                            PerlIO-utf8_strict-0.004:	2554	9	0	10
+                                                                         ExtUtils-InstallPaths-0.010:	2742	0	10	0
+                                                                                Test-CheckDeps-0.010:	2910	17	0	7
                                                                                     Const-Fast-0.014:	3168	141	1	0
