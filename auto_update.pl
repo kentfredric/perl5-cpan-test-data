@@ -87,7 +87,7 @@ if ( $result or not -e $VREPORT_FILE ) {
 }
 if ( $AUTOCOMMIT and $modified ) {
     print "Autocommit\n";
-    export ${GIT_AUTHOR_EMAIL} = 'kentfredric+automated@gmail.com';
+    $ENV{GIT_AUTHOR_EMAIL} = 'kentfredric+automated@gmail.com';
     require Git::Wrapper;
     my $git = Git::Wrapper->new('.');
     $git->add($LAST_MODIFIED_FILE);
