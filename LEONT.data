@@ -3,7 +3,7 @@
                                                                                 Sys-Mmap-Simple-0.14:	52	0	8	0
                                                                                          Const-0.002:	75	0	0	0
                                                                                Devel-OnDestruct-0.01:	75	1	6	2
-                                                                                      Linux-FD-0.011:	83	0	28	0
+                                                                                      Linux-FD-0.011:	83	0	29	0
                                                                                    Linux-Epoll-0.010:	89	0	41	0
                                                                                    Match-Smart-0.001:	99	0	10	0
                                                                                    Signal-More-0.004:	111	106	0	50
@@ -13,7 +13,7 @@
                                                                                    Unix-ResUID-0.001:	129	45	2	0
                                                                                POSIX-RT-Signal-0.012:	163	21	0	116
                                                                             POSIX-RT-Scheduler-0.003:	165	79	0	26
-                                                                             Module-Build-Tiny-0.037:	167	2	0	0
+                                                                             Module-Build-Tiny-0.037:	191	3	0	0
                                                               Dist-Zilla-PluginBundle-LEONT-PP-0.003:	192	0	0	0
                                                                                   threads-lite-0.033:	199	22	17	50
                                                                                    PerlIO-http-0.002:	211	29	0	0
@@ -24,7 +24,7 @@
                                                                                   Build-Simple-0.002:	235	0	0	0
                                                             Dist-Zilla-PluginBundle-LEONT-Base-0.006:	241	0	0	0
                                                                                        Bio-SFF-0.007:	258	0	0	0
-                                                                  Dist-Zilla-Plugin-Substitute-0.004:	259	1	0	0
+                                                                  Dist-Zilla-Plugin-Substitute-0.004:	260	1	0	0
                                                                       Dist-Zilla-Plugin-PPPort-0.007:	269	0	0	0
                                                                                      File-Send-0.002:	269	0	0	0
                                                                              PerlIO-buffersize-0.001:	276	1	0	0
@@ -33,7 +33,7 @@
                                                                                File-Slurp-Sane-0.001:	293	0	0	0
                                                                                   Scalar-Induce-0.05:	293	1	1	0
                                                                                        App-a2p-1.007:	294	0	0	0
-                                                                  Dist-Zilla-Plugin-TemplateXS-0.002:	304	0	0	0
+                                                                  Dist-Zilla-Plugin-TemplateXS-0.002:	305	0	0	0
                                                                              autodie-variables-0.005:	313	33	5	3
                                                                              POSIX-RT-SharedMem-0.08:	318	102	0	17
                                                                             Bio-DNA-Incomplete-0.004:	319	0	0	0
@@ -42,39 +42,39 @@
                                                                                        App-s2p-1.001:	346	1	1	0
                                                                                 Thread-Channel-0.003:	360	0	0	0
                                                                                    PerlIO-text-0.007:	377	6	0	0
-                                                                   Dist-Zilla-Plugin-BuildSelf-0.003:	378	0	0	0
+                                                                   Dist-Zilla-Plugin-BuildSelf-0.003:	381	0	0	0
                                                              Dist-Zilla-Plugin-MinimumPerlFast-0.002:	399	0	0	0
                                                                                   Scalar-Andand-0.05:	469	1	0	1
-                                                                                 Module-Build-0.4206:	501	11	0	1
+                                                                                 Module-Build-0.4206:	502	11	0	2
                                                                                    Scope-OnExit-0.02:	530	1	0	4
-                                                                                  experimental-0.008:	546	0	6	0
+                                                                                  experimental-0.008:	551	0	6	0
                                                                                    Sys-Sendfile-0.12:	554	22	0	2
                                                                                SmartMatch-Sugar-0.05:	590	0	24	0
-                                                                                   Test-Harness-3.32:	610	0	0	0
+                                                                                   Test-Harness-3.32:	611	0	0	0
                                                                                      PerlIO-if-0.003:	617	27	1	0
                                                                                    Smart-Match-0.007:	624	1	32	9
                                                                                         Net-FSP-0.16:	630	1	0	1
                                                                              List-DoubleLinked-0.003:	713	0	0	0
                                                                                   Class-Private-0.05:	723	0	41	1
                                                                                   Variable-Lazy-0.03:	723	3	0	2
-                                                                               ExtUtils-Config-0.008:	742	0	0	0
-                                                                                 Signal-Safety-0.002:	748	4	0	3
-                                                                               CPAN-Meta-Check-0.009:	763	0	0	0
+                                                                               ExtUtils-Config-0.008:	748	0	0	0
+                                                                                 Signal-Safety-0.002:	749	4	0	3
+                                                                               CPAN-Meta-Check-0.009:	767	0	0	0
                                                                             Variable-OnDestruct-0.03:	781	12	1	9
                                                               Dist-Zilla-Plugin-Test-CheckDeps-0.007:	793	0	0	1
-                                                                Dist-Zilla-Role-ModuleIncluder-0.004:	838	0	0	1
-                                                                                   Signal-Mask-0.007:	939	2	0	0
-                                                                                Thread-SigMask-0.004:	943	19	0	25
-                                                                                 PerlIO-Layers-0.011:	1126	13	0	0
+                                                                Dist-Zilla-Role-ModuleIncluder-0.004:	842	0	0	1
+                                                                                   Signal-Mask-0.007:	941	2	0	0
+                                                                                Thread-SigMask-0.004:	945	19	0	25
+                                                                                 PerlIO-Layers-0.011:	1127	13	0	0
                                                                            AnyEvent-Handle-UDP-0.043:	1262	0	0	0
                                                                    Sub-Exporter-Progressive-0.001008:	1303	0	0	4
-                                                             Dist-Zilla-Plugin-ModuleBuildTiny-0.006:	1303	2	0	0
+                                                             Dist-Zilla-Plugin-ModuleBuildTiny-0.006:	1304	2	0	0
                                                                                  Package-Rename-0.02:	1341	0	0	0
-                                                                              ExtUtils-Helpers-0.022:	1767	4	0	0
-                                                                               File-Slurp-Tiny-0.003:	2015	0	0	0
-                                                                                       File-Map-0.61:	2057	49	1	5
-                                                                                Devel-FindPerl-0.012:	2137	11	0	1
-                                                                            PerlIO-utf8_strict-0.004:	2569	9	0	10
-                                                                         ExtUtils-InstallPaths-0.010:	2763	0	10	0
-                                                                                Test-CheckDeps-0.010:	2922	17	0	7
+                                                                              ExtUtils-Helpers-0.022:	1770	4	0	0
+                                                                               File-Slurp-Tiny-0.003:	2016	0	0	0
+                                                                                       File-Map-0.61:	2058	49	1	5
+                                                                                Devel-FindPerl-0.012:	2140	11	0	1
+                                                                            PerlIO-utf8_strict-0.004:	2570	9	0	10
+                                                                         ExtUtils-InstallPaths-0.010:	2765	0	11	0
+                                                                                Test-CheckDeps-0.010:	2923	17	0	7
                                                                                     Const-Fast-0.014:	3179	141	1	0
